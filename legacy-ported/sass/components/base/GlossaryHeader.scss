@@ -1,0 +1,63 @@
+@use './legacy-ported/sass/abstracts/variables';
+
+.glossary-header {
+	margin-top: 10px;
+
+	.glossary-header__search {
+		padding-left: 15px;
+		margin-bottom: 15px;
+		width: 500px;
+
+		@include mobile {
+			width: 100%;
+		}
+
+		@include mobile-large {
+			width: 100%;
+		}
+
+		.MuiInputAdornment-root {
+			margin-right: 20px;
+		}
+
+		.MuiInputBase-input {
+			padding: 10px 10px 10px 0;
+		}
+	}
+
+	.search-bar__clear {
+		margin-right: 0 !important;
+	}
+
+	&__alphabet-row {
+		display: flex;
+		flex-flow: row wrap;
+		margin-left: -2px;
+		margin-top: -2px;
+	}
+
+	&__alphabet-button {
+		&.MuiButton-root {
+			padding: 7px 13px;
+			width: 41.77px !important;
+			min-width: 41.77px !important;
+			font-weight: 700;
+			margin-left: 2px;
+			margin-top: 2px;
+			height: 40px;
+		}
+		&.MuiButton-contained {
+			background-color: variables.$blue-primary;
+		}
+
+		&.MuiButton-outlined {
+			color: variables.$blue-primary;
+			border-color: variables.$blue-primary;
+		}
+	}
+	.nsw-form__helper {
+		&.undefined {
+			display: none;
+		}
+	}
+}

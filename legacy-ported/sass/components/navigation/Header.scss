@@ -1,0 +1,78 @@
+.header {
+	&__options {
+		display: flex;
+		flex-flow: row;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	&__option {
+		margin-left: 10px !important;
+	}
+
+	&__view-text {
+		color: $blue-primary;
+		text-decoration: underline;
+		font-size: 14px;
+	}
+
+	.header__change-user-icon {
+		padding: 0;
+
+		margin-right: 5px;
+	}
+
+	&__font-size {
+		font-size: 14px !important;
+		&.MuiButton-root {
+			padding: 10px;
+			width: 39px;
+			height: 39px;
+			min-width: 0;
+		}
+
+		.MuiButton-label {
+			text-transform: none;
+		}
+	}
+
+	&__download-view {
+		font-size: 14px !important;
+	}
+
+	&__download-view-icon {
+		margin-left: 10px;
+
+		height: 0;
+		display: flex;
+		align-items: center;
+	}
+
+	&__breadcrumbs {
+	}
+
+	&__breadcrumb-link {
+		color: $blue-primary;
+		font-size: 14px;
+		display: inline-flex;
+		text-decoration: none;
+
+		&-inner {
+			text-decoration: underline;
+		}
+
+		&::after {
+			text-decoration: none;
+			content: ">";
+			padding: 0 10px;
+		}
+
+		&:last-child {
+			font-weight: 600;
+
+			&::after {
+				content: none;
+			}
+		}
+	}
+}

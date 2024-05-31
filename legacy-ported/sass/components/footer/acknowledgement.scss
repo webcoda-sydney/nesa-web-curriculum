@@ -1,0 +1,15 @@
+.acknowledgement {
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+    margin: 50px 0px;
+    @include all-mobile-devices{
+      padding: 0 20px;
+    }
+    &__title {
+        margin: 20px 0px;
+    }
+
+    &__description {
+        margin: 20px 0px;
+    }
+}

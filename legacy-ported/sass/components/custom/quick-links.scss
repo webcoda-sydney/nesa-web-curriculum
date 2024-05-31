@@ -1,0 +1,65 @@
+@mixin list-link {
+  display: block;
+  text-decoration: none;
+  padding: 1.5rem 1rem;
+  border-left: 0.25rem solid transparent;
+  border-bottom: 1px solid $light20;
+  background: $white;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.quick-links {
+  // position: fixed;
+
+  @include all-mobile-devices {
+    display: none;
+  }
+
+  &__heading {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 0px;
+  }
+
+  &__list {
+    min-width: 200px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 2px solid $blue-primary;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  &__list-link {
+    @include list-link;
+
+    &--active {
+      background-color: $light10;
+      border-left: 0.25rem solid $red-primary;
+    }
+
+    &--parent-active {
+      border-left: 0.25rem solid $red-primary;
+    }
+
+    @for $depth from 0 through 3 {
+      &--depth-#{$depth} {
+        padding-left: calc(1rem + calc(15px * #{$depth}));
+      }
+    }
+  }
+
+  &__sub-list-link-learning-area {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  &__sub-list-link-tag {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

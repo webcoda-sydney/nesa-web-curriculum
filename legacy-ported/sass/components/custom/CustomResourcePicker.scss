@@ -1,0 +1,45 @@
+@use "./legacy-ported/sass/abstracts/variables";
+@use "./legacy-ported/sass/abstracts/mixins";
+
+.resource-picker {
+  display: grid;
+  grid-template: 100% / 30% 30% 1fr;
+  grid-auto-flow: column;
+
+  @include mixins.all-mobile-devices {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__picker {
+    flex: 1 1 100%;
+
+    // padding: 23px;
+    // border: solid 1px variables.$dark80;
+    // border-radius: 5px;
+
+    display: flex;
+    flex-flow: column nowrap;
+
+    @include mixins.all-mobile-devices {
+      border: 0;
+      padding: 0;
+    }
+
+    .tree-picker {
+      flex: 1 1;
+    }
+  }
+
+  .resource-picker__search-bar {
+    border: solid 1px variables.$light40;
+    border-radius: 5px;
+    flex: 0 0;
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}

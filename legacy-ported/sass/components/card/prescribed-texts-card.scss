@@ -1,0 +1,59 @@
+@use "../../abstracts/variables";
+
+.prescribed-texts-card {
+  padding: 20px;
+
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+
+  &__section {
+    padding: 15px 0;
+
+    border-top: solid 2px variables.$light40;
+
+    &:first-child {
+      padding-top: 0;
+      border-top: 0;
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+  &__section-heading {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__text-details {
+    display: flex;
+    flex-flow: column;
+  }
+
+  &__author {
+    font-style: italic;
+  }
+
+  &__isbn {}
+
+  &__publisher {
+    text-decoration: underline;
+  }
+
+  &__year {}
+
+  &__chip-section {
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: space-between;
+    gap: 10px
+  }
+
+  &__chip {
+    flex: 0 1;
+    white-space: nowrap;
+  }
+}

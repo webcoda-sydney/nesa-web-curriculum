@@ -1,0 +1,20 @@
+.custom-syllabus-page {
+  
+  @include all-mobile-devices {
+    padding: 0px !important;
+  }
+
+  &__syllabus-tags {
+    margin-left: 20px;
+
+    @include all-mobile-devices {
+      margin-left: unset;
+    }
+
+    &--with-top-border {
+      border-top: 1px solid $light40;
+    }
+
+  }
+
+}

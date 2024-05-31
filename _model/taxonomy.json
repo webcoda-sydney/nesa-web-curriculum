@@ -1,0 +1,3182 @@
+[
+	{
+		"last_modified": "2022-11-22T22:32:02.5136353Z",
+		"id": "63f34aeb-95bc-4cc3-a455-4562efc967ad",
+		"name": "ACE Category",
+		"codename": "ace_category",
+		"terms": [
+			{
+				"id": "aed95a83-93b8-43f8-87de-cbb819286003",
+				"name": "RoSA credential",
+				"codename": "rosa_credential",
+				"terms": []
+			},
+			{
+				"id": "2cebfd25-fea2-49c9-b4f8-b49645acc08f",
+				"name": "Life skills",
+				"codename": "life_skills",
+				"terms": []
+			},
+			{
+				"id": "1c90454d-055a-4c6e-8bcd-3307356fa155",
+				"name": "VET",
+				"codename": "vet",
+				"terms": []
+			},
+			{
+				"id": "77c04c6f-7df9-46df-95bd-22763af38bd9",
+				"name": "HSC credential",
+				"codename": "hsc_credential",
+				"terms": []
+			},
+			{
+				"id": "ae72b39e-26c5-4a19-8ed7-6f14d135db2d",
+				"name": "HSC other",
+				"codename": "hsc_other",
+				"terms": []
+			},
+			{
+				"id": "4d1d2f1b-4958-41e6-86e0-c96352ef8374",
+				"name": "Preliminary",
+				"codename": "preliminary",
+				"terms": []
+			},
+			{
+				"id": "194e84f9-6f10-481f-8316-28d303a8446c",
+				"name": "K–10",
+				"codename": "k_10",
+				"terms": []
+			},
+			{
+				"id": "66617a37-86e2-414f-b1e4-358e55e2d6a8",
+				"name": "Malpractice",
+				"codename": "malpractice",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-10-19T10:25:56.5990921Z",
+		"id": "10567768-116c-4fa5-b85f-9eb5156dad56",
+		"name": "Assessment Grades",
+		"codename": "assessment_grades",
+		"terms": [
+			{
+				"id": "20ae766f-8a81-4efe-905e-69f574e086f8",
+				"name": "Grade A",
+				"codename": "grade_a",
+				"terms": []
+			},
+			{
+				"id": "5436b4c3-5ffe-42df-a8bb-8e74e67c26b4",
+				"name": "Grade B",
+				"codename": "grade_b",
+				"terms": []
+			},
+			{
+				"id": "16dbd3d4-44ba-4959-a31d-48c488da4afd",
+				"name": "Grade C",
+				"codename": "grade_c",
+				"terms": []
+			},
+			{
+				"id": "f2b1fa63-1d07-4d2b-a850-afa142ce0b3b",
+				"name": "Grade D",
+				"codename": "grade_d",
+				"terms": []
+			},
+			{
+				"id": "70c57fbb-91ed-42c5-9299-ce4bb8bf30db",
+				"name": "Grade E",
+				"codename": "grade_e",
+				"terms": []
+			},
+			{
+				"id": "20741a05-ecb0-44a3-a4fe-c692aece287e",
+				"name": "Band 6",
+				"codename": "band_6",
+				"terms": []
+			},
+			{
+				"id": "33785dda-2f8a-4927-9922-f21e19479641",
+				"name": "Band 5",
+				"codename": "band_5",
+				"terms": []
+			},
+			{
+				"id": "65c9eb86-9cd1-4161-8503-b93ce59454f8",
+				"name": "Band 4",
+				"codename": "band_4",
+				"terms": []
+			},
+			{
+				"id": "5476b197-ced0-418c-be10-92eeaeadb4a6",
+				"name": "Band 3",
+				"codename": "band_3",
+				"terms": []
+			},
+			{
+				"id": "c853d011-5fff-47fa-9c97-4682aa24c30f",
+				"name": "Band 2",
+				"codename": "band_2",
+				"terms": []
+			},
+			{
+				"id": "11ed4fb7-2186-4e41-bfe8-29efaf484b5e",
+				"name": "Band 1",
+				"codename": "band_1",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-06-23T02:57:13.9386317Z",
+		"id": "f6582c89-eea5-4c44-b99f-d2b5bee83843",
+		"name": "Asset Published Month",
+		"codename": "assetpublishedmonth",
+		"terms": [
+			{
+				"id": "d1d905f5-3ba7-4162-9a65-a5ea88a09c9a",
+				"name": "1",
+				"codename": "n1",
+				"terms": []
+			},
+			{
+				"id": "46168df2-406a-43c5-9f2d-3418e4ba4eb4",
+				"name": "2",
+				"codename": "n2",
+				"terms": []
+			},
+			{
+				"id": "a2f1994b-4743-4115-a679-1b08aa2668e6",
+				"name": "3",
+				"codename": "n3",
+				"terms": []
+			},
+			{
+				"id": "ea15d44d-53e4-40eb-b48f-d6f625a23b8c",
+				"name": "4",
+				"codename": "n4",
+				"terms": []
+			},
+			{
+				"id": "90d04ee4-2d22-4468-8542-eff05526f21a",
+				"name": "5",
+				"codename": "n5",
+				"terms": []
+			},
+			{
+				"id": "8d8d8df9-0df1-46c5-99f5-2fccd8df943a",
+				"name": "6",
+				"codename": "n6",
+				"terms": []
+			},
+			{
+				"id": "479fabf7-2bcd-4c26-8b20-e1a45d909814",
+				"name": "7",
+				"codename": "n7",
+				"terms": []
+			},
+			{
+				"id": "3578163a-7c0c-4ce8-8d4d-3bff494d1eba",
+				"name": "8",
+				"codename": "n8",
+				"terms": []
+			},
+			{
+				"id": "70dd3a22-9339-409a-b907-f8d065a35fb7",
+				"name": "9",
+				"codename": "n9",
+				"terms": []
+			},
+			{
+				"id": "2983a127-a3b1-44fb-842f-ab574fd974ed",
+				"name": "10",
+				"codename": "n10",
+				"terms": []
+			},
+			{
+				"id": "19510ba4-fe1e-40d4-a107-c4f3a60fc010",
+				"name": "11",
+				"codename": "n11",
+				"terms": []
+			},
+			{
+				"id": "5f027b99-a2da-4819-847f-9f4ff908fdbd",
+				"name": "12",
+				"codename": "n12",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-06-23T02:57:45.0650095Z",
+		"id": "4abee3a5-18cc-42fe-b3b3-ad441b45f7fb",
+		"name": "Asset Published Year",
+		"codename": "assetpublishedyear",
+		"terms": [
+			{
+				"id": "0a1540f0-1aae-4180-95ad-cea276ef7109",
+				"name": "2021",
+				"codename": "n2021",
+				"terms": []
+			},
+			{
+				"id": "dbb13916-c79f-4625-be33-e73e02a34eed",
+				"name": "2022",
+				"codename": "n2022",
+				"terms": []
+			},
+			{
+				"id": "3f20d212-bf24-45d0-be17-ce196e0601e7",
+				"name": "2023",
+				"codename": "n2023",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-12-13T00:32:55.6233025Z",
+		"id": "b00a7b05-3550-4957-afae-f0fc78e124a2",
+		"name": "Course Hours",
+		"codename": "coursehours",
+		"terms": [
+			{
+				"id": "67e11807-d860-436a-b00e-e80e1f7fb820",
+				"name": "100",
+				"codename": "n100",
+				"terms": []
+			},
+			{
+				"id": "75f34bca-851b-42be-8a7b-dd2ba0125ecb",
+				"name": "200",
+				"codename": "n200",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-12-11T05:11:58.2239578Z",
+		"id": "4d948519-192d-4b8d-bc11-6c27488ea47e",
+		"name": "Course Type",
+		"codename": "coursetype",
+		"terms": [
+			{
+				"id": "7d97577a-48b9-40a6-9924-d7c361b558ed",
+				"name": "Mainstream",
+				"codename": "mainstream",
+				"terms": []
+			},
+			{
+				"id": "0b312d3a-3608-41a3-8388-bd36ab4cbf2d",
+				"name": "Life Skills",
+				"codename": "life_skills",
+				"terms": []
+			},
+			{
+				"id": "59b23d8a-d5f3-4ea2-ae8d-87f2f371b27f",
+				"name": "Extension",
+				"codename": "extension",
+				"terms": []
+			},
+			{
+				"id": "3b45bffa-43b6-4ffc-8af2-996d6a021845",
+				"name": "VET",
+				"codename": "vet",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-12-13T00:33:58.6591315Z",
+		"id": "80b1d0d9-bbe7-4686-9b80-dc049f8e14b4",
+		"name": "Course Units",
+		"codename": "courseunits",
+		"terms": [
+			{
+				"id": "824ece51-b01f-439f-a5c2-8a54b46f4d44",
+				"name": "1",
+				"codename": "n1",
+				"terms": []
+			},
+			{
+				"id": "5e37e673-c908-455c-a3fb-231bf331f1e2",
+				"name": "2",
+				"codename": "n2",
+				"terms": []
+			},
+			{
+				"id": "a13d7c61-0c86-4edc-acd4-cec2f81d3d0c",
+				"name": "3",
+				"codename": "n3",
+				"terms": []
+			},
+			{
+				"id": "dc57ba43-4d0d-4263-b7a5-1e2471bf6342",
+				"name": "4",
+				"codename": "n4",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-12-06T07:09:36.7905529Z",
+		"id": "d2d6c01e-501d-4fbc-a4ad-6983f687c467",
+		"name": "Curriculum wide",
+		"codename": "curriculum_wide",
+		"terms": [
+			{
+				"id": "3877a40d-35db-4953-b16c-2a6fc66a5bf5",
+				"name": "Curriculum wide resource",
+				"codename": "yes",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-12-11T05:08:54.3910855Z",
+		"id": "63907295-d3d2-45d9-80d0-bb1b8ee6844b",
+		"name": "Endorsement type",
+		"codename": "endorsement_type",
+		"terms": [
+			{
+				"id": "15f19060-e979-415e-9d84-c4508017417c",
+				"name": "Board endorsed",
+				"codename": "board_endorsed",
+				"terms": []
+			},
+			{
+				"id": "63f2fe14-1045-4695-a358-8a49d2ee4d6d",
+				"name": "Content endorsed",
+				"codename": "content_endorsed",
+				"terms": []
+			},
+			{
+				"id": "23ec4fa0-2d8b-461d-8f41-6cdfc5305409",
+				"name": "Board developed",
+				"codename": "board_developed",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-06-27T03:33:49.6097357Z",
+		"id": "eeebb2e0-0547-49fb-a7e0-b7e52eb90ece",
+		"name": "Enrolment Type",
+		"codename": "enrolment_type",
+		"terms": [
+			{
+				"id": "3dc6864f-26c5-4f76-b2d4-4aaa8d36a7d4",
+				"name": "Mandatory",
+				"codename": "mandatory",
+				"terms": []
+			},
+			{
+				"id": "a6bb320d-a35a-4b1a-b8e8-7db55408a166",
+				"name": "Elective",
+				"codename": "elective",
+				"terms": []
+			},
+			{
+				"id": "c6d89104-7173-4746-aa2a-9f677decd7eb",
+				"name": "NA",
+				"codename": "na",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-11-17T02:48:27.9863939Z",
+		"id": "419c60fd-0ec8-43b7-9648-db23d146d148",
+		"name": "Key learning area",
+		"codename": "key_learning_area",
+		"terms": [
+			{
+				"id": "d032f3c1-fd15-4ecb-b472-b7e95e92c566",
+				"name": "English",
+				"codename": "english",
+				"terms": []
+			},
+			{
+				"id": "5e3fc6ec-37cf-436a-b6eb-80ceb80dee5d",
+				"name": "Mathematics",
+				"codename": "mathematics",
+				"terms": []
+			},
+			{
+				"id": "150767c3-7de7-4107-ab44-c82f5bb248f8",
+				"name": "Science",
+				"codename": "science",
+				"terms": []
+			},
+			{
+				"id": "4069a745-2939-49f4-86c0-9cd8b017228c",
+				"name": "Technological and Applied Studies",
+				"codename": "tas",
+				"terms": []
+			},
+			{
+				"id": "13582cba-aa01-4918-b7c9-41929ee3332f",
+				"name": "HSIE",
+				"codename": "hsie",
+				"terms": []
+			},
+			{
+				"id": "0f3a9251-7705-4e60-90dc-9e57bcc925f7",
+				"name": "Creative Arts",
+				"codename": "creative_arts",
+				"terms": []
+			},
+			{
+				"id": "3c0b50df-0047-447d-bcdf-8e3bfecc1508",
+				"name": "PDHPE",
+				"codename": "pdhpe",
+				"terms": []
+			},
+			{
+				"id": "6105b7c3-b727-460d-8b7a-8d0801ef85c1",
+				"name": "Languages",
+				"codename": "languages",
+				"terms": []
+			},
+			{
+				"id": "597b9da7-dc43-4cce-a555-38814c3c7647",
+				"name": "VET",
+				"codename": "vet",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-11-16T01:06:05.5317367Z",
+		"id": "17d3381c-61bd-470d-83c7-8b8930613cf5",
+		"name": "Language",
+		"codename": "language",
+		"terms": [
+			{
+				"id": "d8e1f3f3-0f1b-44ff-a674-f811d193c778",
+				"name": "French",
+				"codename": "french",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-08-23T03:10:46.1123449Z",
+		"id": "e09296c0-b133-42da-90c6-122f76013150",
+		"name": "National Literacy Learning Progression",
+		"codename": "literacy",
+		"terms": [
+			{
+				"id": "cb1130a3-2790-40e1-bf63-d05752527aad",
+				"name": "--------------- Speaking and listening - Listening",
+				"codename": "________________speaking_and_listening___listening",
+				"terms": []
+			},
+			{
+				"id": "5f0279a1-6e22-4a1f-ab63-c801e9533b08",
+				"name": "ECL1a",
+				"codename": "ecl1a",
+				"terms": []
+			},
+			{
+				"id": "429336b7-90bd-46f1-97e0-efebfb40b0a1",
+				"name": "ECL1b",
+				"codename": "ecl1b",
+				"terms": []
+			},
+			{
+				"id": "849e358c-2c35-4095-9f67-6a7074e1db30",
+				"name": "LiS1",
+				"codename": "lis1",
+				"terms": []
+			},
+			{
+				"id": "a9e8a78a-3c27-4825-825c-bda8f92f4feb",
+				"name": "LiS2",
+				"codename": "lis2",
+				"terms": []
+			},
+			{
+				"id": "f8f826e6-0b85-442b-8d28-43113b826b3a",
+				"name": "LiS3",
+				"codename": "lis3",
+				"terms": []
+			},
+			{
+				"id": "e1db2697-30e0-4a3f-bafd-f410118f7310",
+				"name": "LiS4",
+				"codename": "lis4",
+				"terms": []
+			},
+			{
+				"id": "f4d1bd81-0763-4287-b4e1-398f69b6975a",
+				"name": "LiS5",
+				"codename": "lis5",
+				"terms": []
+			},
+			{
+				"id": "7f8a42ec-056f-4cd8-ace8-582cf0fdd3fb",
+				"name": "LiS6",
+				"codename": "lis6",
+				"terms": []
+			},
+			{
+				"id": "8f788e95-ebf4-4249-b4e2-b05c56e2bbe5",
+				"name": "LiS7",
+				"codename": "lis7",
+				"terms": []
+			},
+			{
+				"id": "9e2318f6-4ee1-405d-8290-56fb6d240ea3",
+				"name": "LiS8",
+				"codename": "lis8",
+				"terms": []
+			},
+			{
+				"id": "35c0881d-364d-4eef-9459-ca8f6362031e",
+				"name": "--------------- Speaking and listening - Interacting",
+				"codename": "________________speaking_and_listening___interacting",
+				"terms": []
+			},
+			{
+				"id": "b533818b-b71d-4113-9986-22b471f91f39",
+				"name": "ECI1a",
+				"codename": "eci1a",
+				"terms": []
+			},
+			{
+				"id": "fea743ce-e14e-44b3-b82a-782e72c8f873",
+				"name": "ECI1b",
+				"codename": "eci1b",
+				"terms": []
+			},
+			{
+				"id": "611d63a1-8c84-4a66-80aa-0c17d0214a18",
+				"name": "InT1",
+				"codename": "int1",
+				"terms": []
+			},
+			{
+				"id": "ab181362-ab01-438a-9b8e-56def80f4683",
+				"name": "InT2",
+				"codename": "int2",
+				"terms": []
+			},
+			{
+				"id": "6a68f548-5a51-488b-8c01-20a20c4dc5b5",
+				"name": "InT3",
+				"codename": "int3",
+				"terms": []
+			},
+			{
+				"id": "9305ea23-e689-4c02-ae9c-14945eae7f4d",
+				"name": "InT4",
+				"codename": "int4",
+				"terms": []
+			},
+			{
+				"id": "d791d21e-b8e8-4bd0-b084-8c4f9dec8ff3",
+				"name": "InT5",
+				"codename": "int5",
+				"terms": []
+			},
+			{
+				"id": "959f8a0b-0661-47ea-b4d1-965df5b1f598",
+				"name": "InT6",
+				"codename": "int6",
+				"terms": []
+			},
+			{
+				"id": "d2907aae-f767-4c83-b03e-ac8b1520647f",
+				"name": "InT7",
+				"codename": "int7",
+				"terms": []
+			},
+			{
+				"id": "05695104-55a6-401f-9ccc-a7679d7832b5",
+				"name": "--------------- Speaking and listening - Speaking",
+				"codename": "________________speaking_and_listening___speaking",
+				"terms": []
+			},
+			{
+				"id": "f4f724c1-6fbb-4662-9fa8-5b0f3a5af28c",
+				"name": "ECS1a",
+				"codename": "ecs1a",
+				"terms": []
+			},
+			{
+				"id": "988b8a32-c876-40d7-9051-bbfb595393b6",
+				"name": "ECS1b",
+				"codename": "ecs1b",
+				"terms": []
+			},
+			{
+				"id": "b4acd60f-3441-449c-9c41-2dbe46268dc2",
+				"name": "ECS1c",
+				"codename": "ecs1c",
+				"terms": []
+			},
+			{
+				"id": "8c800a0a-ca15-4ca3-9aa3-c28e63372c0c",
+				"name": "SpK1",
+				"codename": "spk1",
+				"terms": []
+			},
+			{
+				"id": "c6be644d-742f-48d1-ae33-c17f71b504f2",
+				"name": "SpK2",
+				"codename": "spk2",
+				"terms": []
+			},
+			{
+				"id": "21eeec8f-faa1-459b-8802-334ac56870ec",
+				"name": "SpK3",
+				"codename": "spk3",
+				"terms": []
+			},
+			{
+				"id": "f8f8945d-9e55-48d6-8b51-0e283a1ffeea",
+				"name": "SpK4",
+				"codename": "spk4",
+				"terms": []
+			},
+			{
+				"id": "1d8feba5-7796-4326-a169-456b97e5a25b",
+				"name": "SpK5",
+				"codename": "spk5",
+				"terms": []
+			},
+			{
+				"id": "020c7a8b-5e99-4a96-87b3-2b7ba4829cc7",
+				"name": "SpK6",
+				"codename": "spk6",
+				"terms": []
+			},
+			{
+				"id": "31c5dced-c5ae-48f6-958f-15d0c48709ed",
+				"name": "SpK7",
+				"codename": "spk7",
+				"terms": []
+			},
+			{
+				"id": "68d9048a-e98a-46ef-8149-01af612d4de4",
+				"name": "SpK8",
+				"codename": "spk8",
+				"terms": []
+			},
+			{
+				"id": "7a6adaf5-b710-4b62-a369-9892bec209c2",
+				"name": "--------------- Reading and viewing - Phonological awareness",
+				"codename": "________________reading_and_viewing___phonological_awareness",
+				"terms": []
+			},
+			{
+				"id": "a7a83142-006e-4b5b-86d1-b6df2cf492f7",
+				"name": "PhA1",
+				"codename": "pha1",
+				"terms": []
+			},
+			{
+				"id": "ccac00fd-90f7-41c9-bd0f-3cb2a437e6c0",
+				"name": "PhA2",
+				"codename": "pha2",
+				"terms": []
+			},
+			{
+				"id": "87d708d3-2d70-4193-b88f-8a7e17e44a8d",
+				"name": "PhA3",
+				"codename": "pha3",
+				"terms": []
+			},
+			{
+				"id": "ee25ceb2-f203-4285-8311-cacdb771f549",
+				"name": "PhA4",
+				"codename": "pha4",
+				"terms": []
+			},
+			{
+				"id": "762dd554-27ec-4841-84b8-031f2f5330c8",
+				"name": "PhA5",
+				"codename": "pha5",
+				"terms": []
+			},
+			{
+				"id": "fc43d488-eebb-4dc5-b81a-24c5d333a953",
+				"name": "--------------- Reading and viewing - Phonic knowledge and word recognition",
+				"codename": "________________reading_and_viewing___phonic_knowledge_and_word_recognition",
+				"terms": []
+			},
+			{
+				"id": "ec5c82ea-82cf-4cce-9463-5c3eeb6d6464",
+				"name": "PKW1",
+				"codename": "pkw1",
+				"terms": []
+			},
+			{
+				"id": "7bd92836-2ea3-45ec-b43b-73b4cc073ed2",
+				"name": "PKW2",
+				"codename": "pkw2",
+				"terms": []
+			},
+			{
+				"id": "b8157f18-5f2c-4a4c-bebb-0a74b382dd36",
+				"name": "PKW3",
+				"codename": "pkw3",
+				"terms": []
+			},
+			{
+				"id": "28a08224-9043-400c-aaf2-cae3b23795b1",
+				"name": "PKW4",
+				"codename": "pkw4",
+				"terms": []
+			},
+			{
+				"id": "232a4f35-2d7d-4778-ba35-e8d9c59dbe1e",
+				"name": "PKW5",
+				"codename": "pkw5",
+				"terms": []
+			},
+			{
+				"id": "40a868d0-d2ca-4297-a79d-2d1304ce6f10",
+				"name": "PKW6",
+				"codename": "pkw6",
+				"terms": []
+			},
+			{
+				"id": "01b0e18b-4db5-4fb4-be10-b8576065ebd6",
+				"name": "PKW7",
+				"codename": "pkw7",
+				"terms": []
+			},
+			{
+				"id": "33b13ceb-025a-4cc0-825c-2c90859ce39d",
+				"name": "PKW8",
+				"codename": "pkw8",
+				"terms": []
+			},
+			{
+				"id": "f3c062f8-4981-4559-8e65-0dde17f8f1a4",
+				"name": "PKW9",
+				"codename": "pkw9",
+				"terms": []
+			},
+			{
+				"id": "d0f4e2a5-2a1e-4bb7-84dc-34961a05c697",
+				"name": "--------------- Reading and viewing - Fluency",
+				"codename": "________________reading_and_viewing___fluency",
+				"terms": []
+			},
+			{
+				"id": "bb36aa30-5e3e-40ff-863e-1b8b817e3b09",
+				"name": "FlY1",
+				"codename": "fly1",
+				"terms": []
+			},
+			{
+				"id": "51351aa7-5f07-4ad2-8fbc-1b59129e2f77",
+				"name": "FlY2",
+				"codename": "fly2",
+				"terms": []
+			},
+			{
+				"id": "23eeefd9-4f25-4def-82bb-5e604cf1b28a",
+				"name": "FlY3",
+				"codename": "fly3",
+				"terms": []
+			},
+			{
+				"id": "08acfcc2-50d9-4e34-b862-22db9546790b",
+				"name": "FlY4",
+				"codename": "fly4",
+				"terms": []
+			},
+			{
+				"id": "d2abbcad-548d-437d-a09f-dc9d2407a14a",
+				"name": "FlY5",
+				"codename": "fly5",
+				"terms": []
+			},
+			{
+				"id": "1d607315-c148-4563-b4bb-8556b19ecff4",
+				"name": "FlY6",
+				"codename": "fly6",
+				"terms": []
+			},
+			{
+				"id": "20b3e7a8-1dd2-451b-b1f2-2e3644255183",
+				"name": "--------------- Reading and viewing - Understanding texts",
+				"codename": "________________reading_and_viewing___understanding_texts",
+				"terms": []
+			},
+			{
+				"id": "85c48c90-d405-4e10-b1f2-fdf162dad67b",
+				"name": "ECU1a",
+				"codename": "ecu1a",
+				"terms": []
+			},
+			{
+				"id": "27fe6943-bfdb-43da-ad35-eea1a916bd7a",
+				"name": "ECU1b",
+				"codename": "ecu1b",
+				"terms": []
+			},
+			{
+				"id": "deb77d10-42b8-4c5f-9a1d-8c937fb0840b",
+				"name": "UnT1",
+				"codename": "unt1",
+				"terms": []
+			},
+			{
+				"id": "bdb58b3c-1342-4f69-9a16-09ece9856c9c",
+				"name": "UnT2",
+				"codename": "unt2",
+				"terms": []
+			},
+			{
+				"id": "20a369a1-f706-477f-9051-6a776ab2eb2a",
+				"name": "UnT3",
+				"codename": "unt3",
+				"terms": []
+			},
+			{
+				"id": "be8575fa-c5b0-4769-9ef8-7febb3362493",
+				"name": "UnT4",
+				"codename": "unt4",
+				"terms": []
+			},
+			{
+				"id": "5224e1c1-4876-4534-b1b1-76d64c84963c",
+				"name": "UnT5",
+				"codename": "unt5",
+				"terms": []
+			},
+			{
+				"id": "a61fa1f5-522c-40fc-86f5-c3e60fe56e90",
+				"name": "UnT6",
+				"codename": "unt6",
+				"terms": []
+			},
+			{
+				"id": "f030847c-1f5b-431a-9c38-4c61dd5db7cd",
+				"name": "UnT7",
+				"codename": "unt7",
+				"terms": []
+			},
+			{
+				"id": "60e95707-1473-4d23-8f85-07e76e098358",
+				"name": "UnT8",
+				"codename": "unt8",
+				"terms": []
+			},
+			{
+				"id": "063ca326-2288-4910-b1b7-865bed738f39",
+				"name": "UnT9",
+				"codename": "unt9",
+				"terms": []
+			},
+			{
+				"id": "d60b8764-3311-4ff9-a07f-dc2c9c9ed88a",
+				"name": "UnT10",
+				"codename": "unt10",
+				"terms": []
+			},
+			{
+				"id": "4c0a3407-292e-490a-a7db-ee9b530fa27b",
+				"name": "UnT11",
+				"codename": "unt11",
+				"terms": []
+			},
+			{
+				"id": "90ec9550-b24e-4480-9731-8285d26a1e55",
+				"name": "--------------- Writing - Creating texts",
+				"codename": "________________writing___creating_texts",
+				"terms": []
+			},
+			{
+				"id": "af52cb3e-2e98-4ae5-a5e6-c9bbb8079a3c",
+				"name": "ECC1a",
+				"codename": "ecc1a",
+				"terms": []
+			},
+			{
+				"id": "7f56d4b1-0f0f-4e07-aaf3-7d7ba1ffa841",
+				"name": "ECC1b",
+				"codename": "ecc1b",
+				"terms": []
+			},
+			{
+				"id": "a3185099-a621-43bd-a9eb-8af7d982cdad",
+				"name": "CrT1",
+				"codename": "crt1",
+				"terms": []
+			},
+			{
+				"id": "d46db7e4-268f-4d66-ad58-b050f810c959",
+				"name": "CrT2",
+				"codename": "crt2",
+				"terms": []
+			},
+			{
+				"id": "1a6c5677-ca07-4802-8b3e-33e2d5151888",
+				"name": "CrT3",
+				"codename": "crt3",
+				"terms": []
+			},
+			{
+				"id": "b8dd32cf-5996-4927-8178-7f7b1b60e6b3",
+				"name": "CrT4",
+				"codename": "crt4",
+				"terms": []
+			},
+			{
+				"id": "e515d056-26b5-4430-b5d3-1ddddba5e3e9",
+				"name": "CrT6",
+				"codename": "crt6",
+				"terms": []
+			},
+			{
+				"id": "72ca7591-16ca-4d93-b9d1-0b0abafc6c4c",
+				"name": "CrT5",
+				"codename": "crt5",
+				"terms": []
+			},
+			{
+				"id": "27838547-1ad1-46e6-8c68-7a3ea2779078",
+				"name": "CrT7",
+				"codename": "crt7",
+				"terms": []
+			},
+			{
+				"id": "674d3605-ce7f-4efa-81f9-95a672ddbc6d",
+				"name": "CrT8",
+				"codename": "crt8",
+				"terms": []
+			},
+			{
+				"id": "5cfde4bf-6e0a-4910-9655-0e4a87bb5f55",
+				"name": "CrT9",
+				"codename": "crt9",
+				"terms": []
+			},
+			{
+				"id": "33fd44d4-1a4b-41f6-97cc-3db1dab0a9f1",
+				"name": "CrT10",
+				"codename": "crt10",
+				"terms": []
+			},
+			{
+				"id": "70b3dd8b-09cb-4ad3-b2c9-65b49ed08af8",
+				"name": "CrT11",
+				"codename": "crt11",
+				"terms": []
+			},
+			{
+				"id": "3fde17d7-3883-481d-90a8-bc49e814f17c",
+				"name": "--------------- Writing - Grammar",
+				"codename": "________________writing___grammar",
+				"terms": []
+			},
+			{
+				"id": "63b4a708-dad3-4a77-96f9-3f98b7d2fec7",
+				"name": "GrA1",
+				"codename": "gra1",
+				"terms": []
+			},
+			{
+				"id": "bbbff154-2783-4c74-b626-f917d47aa3ff",
+				"name": "GrA2",
+				"codename": "gra2",
+				"terms": []
+			},
+			{
+				"id": "cbeeb708-4e98-463e-9e98-c4cb95607ee3",
+				"name": "GrA3",
+				"codename": "gra3",
+				"terms": []
+			},
+			{
+				"id": "fba77c0b-00a4-4b61-adb5-0e287db654a9",
+				"name": "GrA4",
+				"codename": "gra4",
+				"terms": []
+			},
+			{
+				"id": "a8266d9f-5848-4f38-839d-e42c0521f94a",
+				"name": "GrA5",
+				"codename": "gra5",
+				"terms": []
+			},
+			{
+				"id": "b19e50a3-4147-442d-a6b5-75d2527df95e",
+				"name": "GrA6",
+				"codename": "gra6",
+				"terms": []
+			},
+			{
+				"id": "70c79c30-3077-4fa5-9ca1-049c61bc4084",
+				"name": "GrA7",
+				"codename": "gra7",
+				"terms": []
+			},
+			{
+				"id": "f9795e7e-1118-4d79-802c-b31b0c9f628a",
+				"name": "--------------- Writing - Punctuation",
+				"codename": "________________writing___punctuation",
+				"terms": []
+			},
+			{
+				"id": "fa4c5eff-8468-40dc-bc9a-d6505de79633",
+				"name": "PuN1",
+				"codename": "pun1",
+				"terms": []
+			},
+			{
+				"id": "e88ad923-9bed-4717-8f8b-e19422cadeef",
+				"name": "PuN2",
+				"codename": "pun2",
+				"terms": []
+			},
+			{
+				"id": "70578951-fe7d-499f-8332-0ad45d65fda6",
+				"name": "PuN3",
+				"codename": "pun3",
+				"terms": []
+			},
+			{
+				"id": "c2880cf6-5a5f-46ec-88fe-16510265ef40",
+				"name": "PuN4",
+				"codename": "pun4",
+				"terms": []
+			},
+			{
+				"id": "49c34016-40bc-44a6-a3b9-984b4e0a7fb6",
+				"name": "PuN5",
+				"codename": "pun5",
+				"terms": []
+			},
+			{
+				"id": "de124b20-4e7f-4105-9bd0-6ca912f6f3e8",
+				"name": "PuN6",
+				"codename": "pun6",
+				"terms": []
+			},
+			{
+				"id": "d41eb58e-0d44-472b-9a53-8efa4014329f",
+				"name": "PuN7",
+				"codename": "pun7",
+				"terms": []
+			},
+			{
+				"id": "4d7d9a5e-3851-41a2-b773-22603073e9a4",
+				"name": "PuN8",
+				"codename": "pun8",
+				"terms": []
+			},
+			{
+				"id": "979e10e6-ab15-49c2-8e49-ddd98cd73500",
+				"name": "--------------- Writing - Spelling",
+				"codename": "________________writing___spelling",
+				"terms": []
+			},
+			{
+				"id": "3d5e2724-8b40-47a3-a383-878a9de60c7b",
+				"name": "SpG1",
+				"codename": "spg1",
+				"terms": []
+			},
+			{
+				"id": "ee22cdcc-a590-4834-80ad-e9521ca6746a",
+				"name": "SpG2",
+				"codename": "spg2",
+				"terms": []
+			},
+			{
+				"id": "0666205f-671a-42ce-96e6-8939c79e64b1",
+				"name": "SpG3",
+				"codename": "spg3",
+				"terms": []
+			},
+			{
+				"id": "04b26343-bf78-4680-b384-73d42b24bf4a",
+				"name": "SpG4",
+				"codename": "spg4",
+				"terms": []
+			},
+			{
+				"id": "84770826-1f61-4332-9eb7-c7c45333e917",
+				"name": "SpG5",
+				"codename": "spg5",
+				"terms": []
+			},
+			{
+				"id": "5afbf339-58c7-456f-8663-8ab3662369c5",
+				"name": "SpG6",
+				"codename": "spg6",
+				"terms": []
+			},
+			{
+				"id": "30c83375-df0b-4413-867e-4b5b11af5145",
+				"name": "SpG7",
+				"codename": "spg7",
+				"terms": []
+			},
+			{
+				"id": "46acda8e-1909-4a0f-b796-97613207d0dc",
+				"name": "SpG8",
+				"codename": "spg8",
+				"terms": []
+			},
+			{
+				"id": "327fbb21-b6eb-4ddb-b836-d134ab1a2a5e",
+				"name": "SpG9",
+				"codename": "spg9",
+				"terms": []
+			},
+			{
+				"id": "2388b2c5-0e3e-41e6-8fe9-3f17814ff772",
+				"name": "SpG10",
+				"codename": "spg10",
+				"terms": []
+			},
+			{
+				"id": "2c7ce7ae-72f4-42bf-b586-cb123435b618",
+				"name": "SpG11",
+				"codename": "spg11",
+				"terms": []
+			},
+			{
+				"id": "079fb288-9db7-4a0e-9654-075bc399dee0",
+				"name": "SpG12",
+				"codename": "spg12",
+				"terms": []
+			},
+			{
+				"id": "cf0e327c-63e2-45d3-a94c-aec740df2554",
+				"name": "SpG13",
+				"codename": "spg13",
+				"terms": []
+			},
+			{
+				"id": "b668139a-b8be-448c-a182-670c575294aa",
+				"name": "SpG14",
+				"codename": "spg14",
+				"terms": []
+			},
+			{
+				"id": "fba139f8-b49d-4fd4-8835-52829b440b23",
+				"name": "--------------- Writing - Handwriting and keyboarding",
+				"codename": "________________writing___handwriting_and_keyboarding",
+				"terms": []
+			},
+			{
+				"id": "87f2e40c-3620-4fed-afde-8b68307aa7f0",
+				"name": "HwK1",
+				"codename": "hwk1",
+				"terms": []
+			},
+			{
+				"id": "43d01bac-f2c9-447d-97f8-f7f6a55da405",
+				"name": "HwK2",
+				"codename": "hwk2",
+				"terms": []
+			},
+			{
+				"id": "6ef29911-f17e-4911-b895-1a023bbaa82e",
+				"name": "HwK3",
+				"codename": "hwk3",
+				"terms": []
+			},
+			{
+				"id": "5c7609c3-5ecc-41f1-9d4e-efccd58be558",
+				"name": "HwK4",
+				"codename": "hwk4",
+				"terms": []
+			},
+			{
+				"id": "cabddd9e-0121-40fa-aaa4-ca0aee339a15",
+				"name": "HwK5",
+				"codename": "hwk5",
+				"terms": []
+			},
+			{
+				"id": "04801692-f799-4be8-817d-dc16bf528a56",
+				"name": "HwK6",
+				"codename": "hwk6",
+				"terms": []
+			},
+			{
+				"id": "e8adb4f9-6118-49d0-ae4c-df2f62403735",
+				"name": "HwK7",
+				"codename": "hwk7",
+				"terms": []
+			},
+			{
+				"id": "07879838-2d46-4d3b-a920-7606ab2a4a01",
+				"name": "HwK8",
+				"codename": "hwk8",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-06-28T08:50:52.4008414Z",
+		"id": "857fe467-c003-4c78-8b7c-10ef5d1d6ef0",
+		"name": "National Numeracy Learning Progression",
+		"codename": "numeracy",
+		"terms": [
+			{
+				"id": "08c18024-f63e-46b3-8c03-3548ca4a89a4",
+				"name": "--------------- Number sense and algebra - Number and place value",
+				"codename": "________________number_sense_and_algebra___number_and_place_value",
+				"terms": []
+			},
+			{
+				"id": "831c346d-0c4d-41ce-b26a-dbf0a56fb123",
+				"name": "NPV1",
+				"codename": "npv1",
+				"terms": []
+			},
+			{
+				"id": "b866dfb0-8a95-44e7-995a-6e9ac2eda53c",
+				"name": "NPV2",
+				"codename": "npv2",
+				"terms": []
+			},
+			{
+				"id": "50354e56-3f99-428a-baa9-d3502d56ac5f",
+				"name": "NPV3",
+				"codename": "npv3",
+				"terms": []
+			},
+			{
+				"id": "d107f89b-9a9e-482f-a4aa-c2124de271ab",
+				"name": "NPV4",
+				"codename": "npv4",
+				"terms": []
+			},
+			{
+				"id": "89bd6d70-42c4-4453-ae1f-524053348f34",
+				"name": "NPV5",
+				"codename": "npv5",
+				"terms": []
+			},
+			{
+				"id": "241f72ae-c40c-4e75-82d7-3d1cea984c14",
+				"name": "NPV6",
+				"codename": "npv6",
+				"terms": []
+			},
+			{
+				"id": "f9634a59-2551-4d5a-884e-d74cdfc09231",
+				"name": "NPV7",
+				"codename": "npv7",
+				"terms": []
+			},
+			{
+				"id": "deb48ecd-ac20-406b-aa7e-f8edf0c54e79",
+				"name": "NPV8",
+				"codename": "npv8",
+				"terms": []
+			},
+			{
+				"id": "a4fe1f1d-530b-449e-bc64-7cdec394d721",
+				"name": "NPV9",
+				"codename": "npv9",
+				"terms": []
+			},
+			{
+				"id": "e0b206be-0de2-4650-9787-e0aa420f3b47",
+				"name": "NPV10",
+				"codename": "npv10",
+				"terms": []
+			},
+			{
+				"id": "0fc1ee83-8053-4eb2-8d5f-063ddbfd9d16",
+				"name": "--------------- Number sense and algebra - Counting process",
+				"codename": "________________number_sense_and_algebra___counting_process",
+				"terms": []
+			},
+			{
+				"id": "7db7ec78-1239-4e23-a2c1-bf3575cae8ff",
+				"name": "CPr1",
+				"codename": "cpr1",
+				"terms": []
+			},
+			{
+				"id": "7ec70e8f-a7ec-4873-be60-d898a57a07ef",
+				"name": "CPr2",
+				"codename": "cpr2",
+				"terms": []
+			},
+			{
+				"id": "5d55eed4-0e41-4555-b227-61ba0c2db504",
+				"name": "CPr3",
+				"codename": "cpr3",
+				"terms": []
+			},
+			{
+				"id": "d2b179ef-b75f-4cc8-ba7d-ef5aaeccd92e",
+				"name": "CPr4",
+				"codename": "cpr4",
+				"terms": []
+			},
+			{
+				"id": "6f3f8da2-1c3f-492a-bfde-6f65a12279f8",
+				"name": "CPr5",
+				"codename": "cpr5",
+				"terms": []
+			},
+			{
+				"id": "cf4461f5-695e-44a0-b4b5-844f27fd732c",
+				"name": "CPr6",
+				"codename": "cpr6",
+				"terms": []
+			},
+			{
+				"id": "2d204929-c766-4e84-af6e-a4a50e114290",
+				"name": "CPr7",
+				"codename": "cpr7",
+				"terms": []
+			},
+			{
+				"id": "5bab2a73-e0de-4c20-9407-18e0a032e173",
+				"name": "CPr8",
+				"codename": "cpr8",
+				"terms": []
+			},
+			{
+				"id": "a4ffb74b-b3e3-43fc-849b-5fbbab17dc2f",
+				"name": "--------------- Number sense and algebra - Additive strategies",
+				"codename": "________________number_sense_and_algebra___additive_strategies",
+				"terms": []
+			},
+			{
+				"id": "070408d3-5650-449f-b581-0f740986ec02",
+				"name": "AdS1",
+				"codename": "ads1",
+				"terms": []
+			},
+			{
+				"id": "47c05c72-b2f2-4da1-8481-b017755af25c",
+				"name": "AdS2",
+				"codename": "ads2",
+				"terms": []
+			},
+			{
+				"id": "ba14d3d2-42c6-445e-958e-0e377c0ae132",
+				"name": "AdS3",
+				"codename": "ads3",
+				"terms": []
+			},
+			{
+				"id": "270d82b1-9be2-4381-b9fd-9dc54692949b",
+				"name": "AdS4",
+				"codename": "ads4",
+				"terms": []
+			},
+			{
+				"id": "e562e009-fdf8-483e-bbc3-5e1ec43555ec",
+				"name": "AdS5",
+				"codename": "ads5",
+				"terms": []
+			},
+			{
+				"id": "a5323717-e873-41d4-b974-92c5fce4b015",
+				"name": "AdS6",
+				"codename": "ads6",
+				"terms": []
+			},
+			{
+				"id": "6fa0e056-df9c-43cb-83f7-947a2e1a382a",
+				"name": "AdS7",
+				"codename": "ads7",
+				"terms": []
+			},
+			{
+				"id": "b397522f-efe2-4547-9be6-ec05fbc91452",
+				"name": "AdS8",
+				"codename": "ads8",
+				"terms": []
+			},
+			{
+				"id": "304835d6-3f83-4449-868b-1c2ad3097909",
+				"name": "AdS9",
+				"codename": "ads9",
+				"terms": []
+			},
+			{
+				"id": "3e1567dd-717f-4eae-a6cb-2dbff816f4f0",
+				"name": "AdS10",
+				"codename": "ads10",
+				"terms": []
+			},
+			{
+				"id": "6aacb56c-5b1f-4045-b9c5-63818d20750a",
+				"name": "--------------- Number sense and algebra - Multiplicative strategies",
+				"codename": "________________number_sense_and_algebra___multiplicative_strategies",
+				"terms": []
+			},
+			{
+				"id": "db40ee7a-bb86-4dd8-a8e3-97894db955bf",
+				"name": "MuS1",
+				"codename": "mus1",
+				"terms": []
+			},
+			{
+				"id": "6643753a-c736-4ab0-977c-cd54d6188204",
+				"name": "MuS2",
+				"codename": "mus2",
+				"terms": []
+			},
+			{
+				"id": "0f9e66c5-cb2d-419a-9ffe-8dab2b12fa7d",
+				"name": "MuS3",
+				"codename": "mus3",
+				"terms": []
+			},
+			{
+				"id": "0e0e14b0-93b3-46a4-b4a4-e1bcd27ef18d",
+				"name": "MuS4",
+				"codename": "mus4",
+				"terms": []
+			},
+			{
+				"id": "950187cc-5464-47a5-826d-edf87e87843d",
+				"name": "MuS5",
+				"codename": "mus5",
+				"terms": []
+			},
+			{
+				"id": "ed94c762-1858-4333-b3f5-d397fda78063",
+				"name": "MuS6",
+				"codename": "mus6",
+				"terms": []
+			},
+			{
+				"id": "6b8d2e7e-8b9d-4215-8f4e-e7ca97f68483",
+				"name": "MuS7",
+				"codename": "mus7",
+				"terms": []
+			},
+			{
+				"id": "d265f933-5a5e-4983-bb87-7bc8116f8df8",
+				"name": "MuS8",
+				"codename": "mus8",
+				"terms": []
+			},
+			{
+				"id": "732bfb0b-d25a-4805-b4b9-d409edafc0fa",
+				"name": "MuS9",
+				"codename": "mus9",
+				"terms": []
+			},
+			{
+				"id": "e882b9c7-4a5a-4758-9237-9d462c62951f",
+				"name": "MuS10",
+				"codename": "mus10",
+				"terms": []
+			},
+			{
+				"id": "7f021e1d-ef47-4cba-84f7-f59746f44c47",
+				"name": "--------------- Number sense and algebra - Interpreting fractions",
+				"codename": "________________number_sense_and_algebra___interpreting_fractions",
+				"terms": []
+			},
+			{
+				"id": "f7a86a5e-bbbb-4cc5-9356-c40d68597593",
+				"name": "InF1",
+				"codename": "inf1",
+				"terms": []
+			},
+			{
+				"id": "3f7a308f-fb11-473c-8533-b0c259c90b3d",
+				"name": "InF2",
+				"codename": "inf2",
+				"terms": []
+			},
+			{
+				"id": "fd3a78e3-dfff-4edb-9fb8-3e1672e43eae",
+				"name": "InF3",
+				"codename": "inf3",
+				"terms": []
+			},
+			{
+				"id": "a9d1599a-2119-4a69-8e2d-040838f80e83",
+				"name": "InF4",
+				"codename": "inf4",
+				"terms": []
+			},
+			{
+				"id": "e4193704-147e-4212-9918-80c98fb375ac",
+				"name": "InF5",
+				"codename": "inf5",
+				"terms": []
+			},
+			{
+				"id": "70464f53-881a-47f8-bc52-992210cf3aaa",
+				"name": "InF6",
+				"codename": "inf6",
+				"terms": []
+			},
+			{
+				"id": "85bf088f-be7b-4adc-a54d-4d83e1995823",
+				"name": "InF7",
+				"codename": "inf7",
+				"terms": []
+			},
+			{
+				"id": "5f72111d-0e09-4a58-897e-db4947130787",
+				"name": "--------------- Number sense and algebra - Proportional thinking",
+				"codename": "________________number_sense_and_algebra___proportional_thinking",
+				"terms": []
+			},
+			{
+				"id": "3f146bb0-9da3-4b60-83bc-a94021513cd4",
+				"name": "PrT1",
+				"codename": "prt1",
+				"terms": []
+			},
+			{
+				"id": "0670de90-e363-4b8e-ba4c-ce46cbbb74f9",
+				"name": "PrT2",
+				"codename": "prt2",
+				"terms": []
+			},
+			{
+				"id": "e59d68c1-8a66-40b1-9081-e1f812f34968",
+				"name": "PrT3",
+				"codename": "prt3",
+				"terms": []
+			},
+			{
+				"id": "4da48498-7938-4b34-8e37-f45a59c47321",
+				"name": "PrT4",
+				"codename": "prt4",
+				"terms": []
+			},
+			{
+				"id": "7f7eee2c-b896-4421-9338-c3e0851df364",
+				"name": "PrT5",
+				"codename": "prt5",
+				"terms": []
+			},
+			{
+				"id": "306d1348-0b3a-4c75-ac45-88335db01a33",
+				"name": "PrT6",
+				"codename": "prt6",
+				"terms": []
+			},
+			{
+				"id": "235fdb69-2991-415a-85fc-ef3ba2b86b56",
+				"name": "PrT7",
+				"codename": "prt7",
+				"terms": []
+			},
+			{
+				"id": "18c50339-6dc5-47e4-a635-8a05d8f7cd34",
+				"name": "--------------- Number sense and algebra - Number patterns and algebraic thinking",
+				"codename": "________________number_sense_and_algebra___number_patterns_and_algebraic_thinking",
+				"terms": []
+			},
+			{
+				"id": "7037c700-8caa-4c10-9c2b-b2ba2afe1cc7",
+				"name": "NPA1",
+				"codename": "npa1",
+				"terms": []
+			},
+			{
+				"id": "c326f315-3a33-4134-a853-dafa3a3799b4",
+				"name": "NPA2",
+				"codename": "npa2",
+				"terms": []
+			},
+			{
+				"id": "f4d4a806-cdcd-49bd-9b49-7b2385d96392",
+				"name": "NPA3",
+				"codename": "npa3",
+				"terms": []
+			},
+			{
+				"id": "299bf304-ec5b-4316-9f4b-5b714b46b659",
+				"name": "NPA4",
+				"codename": "npa4",
+				"terms": []
+			},
+			{
+				"id": "019e873d-cb2a-48ca-bfaa-1a957606c4f3",
+				"name": "NPA5",
+				"codename": "npa5",
+				"terms": []
+			},
+			{
+				"id": "38e79538-be0e-4114-9aa2-a3a6c9f5ea51",
+				"name": "NPA6",
+				"codename": "npa6",
+				"terms": []
+			},
+			{
+				"id": "dcb4783d-fbfe-408b-aace-23dcab02e634",
+				"name": "NPA7",
+				"codename": "npa7",
+				"terms": []
+			},
+			{
+				"id": "40d0494b-7124-4bfb-9ef5-28c9984fa15d",
+				"name": "NPA8",
+				"codename": "npa8",
+				"terms": []
+			},
+			{
+				"id": "80d66f34-6d98-48c9-ae54-279805bf447a",
+				"name": "NPA9",
+				"codename": "npa9",
+				"terms": []
+			},
+			{
+				"id": "6400f8ae-dfaf-4783-8019-dad6b37565c1",
+				"name": "--------------- Number sense and algebra - Understanding money",
+				"codename": "________________number_sense_and_algebra___understanding_money",
+				"terms": []
+			},
+			{
+				"id": "37b5aa77-1e42-4f3b-a818-2d8372b29b40",
+				"name": "UnM1",
+				"codename": "unm1",
+				"terms": []
+			},
+			{
+				"id": "325c908c-6c67-4a7b-ba94-799a640245c5",
+				"name": "UnM2",
+				"codename": "unm2",
+				"terms": []
+			},
+			{
+				"id": "faa934a4-e83c-46a5-b421-0b61cbea0684",
+				"name": "UnM3",
+				"codename": "unm3",
+				"terms": []
+			},
+			{
+				"id": "e751abff-90ec-45c2-873b-cf6dba38a80c",
+				"name": "UnM4",
+				"codename": "unm4",
+				"terms": []
+			},
+			{
+				"id": "63848447-7bf5-4383-8fec-d351bd76be26",
+				"name": "UnM5",
+				"codename": "unm5",
+				"terms": []
+			},
+			{
+				"id": "3c8bcdc4-ffad-4077-95d0-0bf867ffbb03",
+				"name": "UnM6",
+				"codename": "unm6",
+				"terms": []
+			},
+			{
+				"id": "a8042c33-60d4-4067-b331-3104738d3289",
+				"name": "UnM7",
+				"codename": "unm7",
+				"terms": []
+			},
+			{
+				"id": "fc7cf9b7-801e-4a51-b9fe-708a4189258c",
+				"name": "UnM8",
+				"codename": "unm8",
+				"terms": []
+			},
+			{
+				"id": "0903fbbb-3a72-41e8-a528-cf1fa8a7c314",
+				"name": "UnM9",
+				"codename": "unm9",
+				"terms": []
+			},
+			{
+				"id": "78636064-1713-469a-9f1a-00219a70d081",
+				"name": "UnM10",
+				"codename": "unm10",
+				"terms": []
+			},
+			{
+				"id": "140fd6da-1bfd-4bb3-991d-5677dec38eae",
+				"name": "--------------- Measurement and geometry - Understanding units of measurement",
+				"codename": "________________measurement_and_geometry___understanding_units_of_measurement",
+				"terms": []
+			},
+			{
+				"id": "0374e8e2-c4df-4e57-82be-3d4f23e979d5",
+				"name": "UuM1",
+				"codename": "uum1",
+				"terms": []
+			},
+			{
+				"id": "060a44e6-f4fe-409a-ba7b-627722270980",
+				"name": "UuM2",
+				"codename": "uum2",
+				"terms": []
+			},
+			{
+				"id": "8499e50d-dabd-4ef3-9564-7f675508a19d",
+				"name": "UuM3",
+				"codename": "uum3",
+				"terms": []
+			},
+			{
+				"id": "678ed269-7b88-45bb-9b8a-7d89f10f7700",
+				"name": "UuM4",
+				"codename": "uum4",
+				"terms": []
+			},
+			{
+				"id": "2f4cccaf-018a-4ab7-8fae-ad3b34e1bbe7",
+				"name": "UuM5",
+				"codename": "uum5",
+				"terms": []
+			},
+			{
+				"id": "87ec8cc0-f2b6-4c7d-a96c-d162126b2c3c",
+				"name": "UuM6",
+				"codename": "uum6",
+				"terms": []
+			},
+			{
+				"id": "f9ebde0f-ab1a-4972-8633-b0dafa893d87",
+				"name": "UuM7",
+				"codename": "uum7",
+				"terms": []
+			},
+			{
+				"id": "a393d1cd-17ce-47d5-b81b-03240818be0a",
+				"name": "UuM8",
+				"codename": "uum8",
+				"terms": []
+			},
+			{
+				"id": "cdd6d825-e002-4d49-aaab-1f60d79cc2c6",
+				"name": "UuM9",
+				"codename": "uum9",
+				"terms": []
+			},
+			{
+				"id": "d641b3f0-f486-4fbc-af5e-c94bf6b34089",
+				"name": "UuM10",
+				"codename": "uum10",
+				"terms": []
+			},
+			{
+				"id": "13f3d6e2-a29c-4479-a6f3-25b73e5385de",
+				"name": "--------------- Measurement and geometry - Understanding geometric properties",
+				"codename": "________________measurement_and_geometry___understanding_geometric_properties",
+				"terms": []
+			},
+			{
+				"id": "9fe6fc86-42d7-430f-803c-55d0eb511215",
+				"name": "UGP1",
+				"codename": "ugp1",
+				"terms": []
+			},
+			{
+				"id": "2a0ff126-ea2d-4a3d-be55-c5b65e66c95a",
+				"name": "UGP2",
+				"codename": "ugp2",
+				"terms": []
+			},
+			{
+				"id": "253431b7-13a8-481c-876e-3ffe7f952800",
+				"name": "UGP3",
+				"codename": "ugp3",
+				"terms": []
+			},
+			{
+				"id": "3a066984-657e-489a-9bab-53e50a46ebfc",
+				"name": "UGP4",
+				"codename": "ugp4",
+				"terms": []
+			},
+			{
+				"id": "3e0da87b-efa8-474e-a535-32e98857a57a",
+				"name": "UGP5",
+				"codename": "ugp5",
+				"terms": []
+			},
+			{
+				"id": "5d8d7d05-3ef8-4eff-91ee-9ca6adab7cde",
+				"name": "UGP6",
+				"codename": "ugp6",
+				"terms": []
+			},
+			{
+				"id": "b229a5f6-ef35-4eaa-955d-43ed6d6b7af9",
+				"name": "UGP7",
+				"codename": "ugp7",
+				"terms": []
+			},
+			{
+				"id": "9a73a3d6-dc6a-433b-85db-ca98d3cc2646",
+				"name": "--------------- Measurement and geometry - Positioning and locating",
+				"codename": "________________measurement_and_geometry___positioning_and_locating",
+				"terms": []
+			},
+			{
+				"id": "a629a10b-7d03-4ce4-89eb-7e8de06fe3f0",
+				"name": "PoL1",
+				"codename": "pol1",
+				"terms": []
+			},
+			{
+				"id": "653a7ceb-5b34-43e2-b15f-00468df68d48",
+				"name": "PoL2",
+				"codename": "pol2",
+				"terms": []
+			},
+			{
+				"id": "345d6dcb-c65e-4665-bd53-6b5ff54d1b85",
+				"name": "PoL3",
+				"codename": "pol3",
+				"terms": []
+			},
+			{
+				"id": "87539fb5-d5f3-423b-8948-65ce07545846",
+				"name": "PoL4",
+				"codename": "pol4",
+				"terms": []
+			},
+			{
+				"id": "9cafd68f-4bf2-4662-8b8d-f00d9b1ce4ec",
+				"name": "PoL5",
+				"codename": "pol5",
+				"terms": []
+			},
+			{
+				"id": "777529c6-24f4-4fd9-9d3f-38133b0f2ecf",
+				"name": "--------------- Measurement and geometry - Measuring time",
+				"codename": "________________measurement_and_geometry___measuring_time",
+				"terms": []
+			},
+			{
+				"id": "eb460315-3b8a-490a-a6e7-5612649db18a",
+				"name": "MeT1",
+				"codename": "met1",
+				"terms": []
+			},
+			{
+				"id": "36b1e5fd-63b5-4b40-9e03-9bc1d229ae8e",
+				"name": "MeT2",
+				"codename": "met2",
+				"terms": []
+			},
+			{
+				"id": "eb6fc8da-129d-4374-9904-de66da868e32",
+				"name": "MeT3",
+				"codename": "met3",
+				"terms": []
+			},
+			{
+				"id": "9c5bc493-8e24-4aff-bdac-dbb8e370390f",
+				"name": "MeT4",
+				"codename": "met4",
+				"terms": []
+			},
+			{
+				"id": "915d0289-d3b1-41cd-be61-cb7ae87746ff",
+				"name": "MeT5",
+				"codename": "met5",
+				"terms": []
+			},
+			{
+				"id": "fc222fc8-7b28-4701-9058-5c7a4029de03",
+				"name": "MeT6",
+				"codename": "met6",
+				"terms": []
+			},
+			{
+				"id": "14428650-9a66-446b-bd0e-4fa869ba101a",
+				"name": "MeT7",
+				"codename": "met7",
+				"terms": []
+			},
+			{
+				"id": "d2589cb2-d9c5-4837-b789-019f5b039a51",
+				"name": "--------------- Statistics and probability - Understanding chance",
+				"codename": "________________statistics_and_probability___understanding_chance",
+				"terms": []
+			},
+			{
+				"id": "00b4c9ec-4b94-4cc2-882f-707fa50007d0",
+				"name": "UnC1",
+				"codename": "unc1",
+				"terms": []
+			},
+			{
+				"id": "a28c211d-3fb5-4afd-8ba8-20550e86adb0",
+				"name": "UnC2",
+				"codename": "unc2",
+				"terms": []
+			},
+			{
+				"id": "4a87105f-818d-422c-8ed9-b98bb8a66610",
+				"name": "UnC3",
+				"codename": "unc3",
+				"terms": []
+			},
+			{
+				"id": "605ca103-8368-4710-92dd-6f428dc07b93",
+				"name": "UnC4",
+				"codename": "unc4",
+				"terms": []
+			},
+			{
+				"id": "2df5ef6f-a640-41d4-b63c-77c979d1d8ea",
+				"name": "UnC5",
+				"codename": "unc5",
+				"terms": []
+			},
+			{
+				"id": "2deed13f-1df0-4974-a64b-5f2e997c1060",
+				"name": "UnC6",
+				"codename": "unc6",
+				"terms": []
+			},
+			{
+				"id": "007382ab-f22e-487c-aebc-856135ad3b55",
+				"name": "--------------- Statistics and probability - Interpreting and representing data",
+				"codename": "________________statistics_and_probability___interpreting_and_representing_data",
+				"terms": []
+			},
+			{
+				"id": "658de88a-577e-4505-a36d-52eb8d7777b9",
+				"name": "IRD1",
+				"codename": "ird1",
+				"terms": []
+			},
+			{
+				"id": "24651d51-e606-4aa9-a420-06831ab40539",
+				"name": "IRD2",
+				"codename": "ird2",
+				"terms": []
+			},
+			{
+				"id": "07c34817-9e39-41c1-94c5-ff0555fc4934",
+				"name": "IRD3",
+				"codename": "ird3",
+				"terms": []
+			},
+			{
+				"id": "ac84c41a-122e-419f-a913-3091f84f52d8",
+				"name": "IRD4",
+				"codename": "ird4",
+				"terms": []
+			},
+			{
+				"id": "ddbb0ed4-d4e7-4721-bf13-e1b1f7f7792c",
+				"name": "IRD5",
+				"codename": "ird5",
+				"terms": []
+			},
+			{
+				"id": "87bd4a5d-a555-4001-a70d-677e3f74fbe7",
+				"name": "IRD6",
+				"codename": "ird6",
+				"terms": []
+			},
+			{
+				"id": "3697f9d4-dd9f-42e9-972b-a3ddd05998ab",
+				"name": "IRD7",
+				"codename": "ird7",
+				"terms": []
+			},
+			{
+				"id": "5807eab2-bee2-4c1e-b417-838909f1f2a5",
+				"name": "IRD8",
+				"codename": "ird8",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-06-18T15:05:13.4325606Z",
+		"id": "b3dc6589-d76d-4d19-9676-48f1909827f6",
+		"name": "Resource Type Web",
+		"codename": "resource_type_web",
+		"terms": [
+			{
+				"id": "a12fa944-1d80-4721-9399-548cf034f17f",
+				"name": "Web Resource",
+				"codename": "web_resource",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-11-22T05:14:39.1316304Z",
+		"id": "0aab1843-8ce8-4704-803b-1347d5957c0b",
+		"name": "Resource type",
+		"codename": "resource_type",
+		"terms": [
+			{
+				"id": "f05f7371-aadb-47fb-b8cd-64e92b3f2b5d",
+				"name": "Teaching advice",
+				"codename": "advice",
+				"terms": []
+			},
+			{
+				"id": "90c85179-3b21-4a9a-9e30-52b5bcb939f2",
+				"name": "Sample scope and sequence",
+				"codename": "ssas",
+				"terms": []
+			},
+			{
+				"id": "fa1a871d-08e2-4679-a64b-27321a546f34",
+				"name": "Sample units",
+				"codename": "sunit",
+				"terms": []
+			},
+			{
+				"id": "464c1575-2837-47bd-9ee6-50d3f7a7c94a",
+				"name": "Sample work",
+				"codename": "swork",
+				"terms": []
+			},
+			{
+				"id": "71d2700e-d12b-4832-b246-b4edf4d691a0",
+				"name": "Life Skills outcomes worksheet",
+				"codename": "lsow",
+				"terms": []
+			},
+			{
+				"id": "626150fc-fd88-46a6-a7f3-2eb8b2c876ff",
+				"name": "Bibliographies",
+				"codename": "biblio",
+				"terms": []
+			},
+			{
+				"id": "f0b53837-3731-45c9-b3d2-e92967bc254e",
+				"name": "Suggested instructional sequences",
+				"codename": "sugis",
+				"terms": []
+			},
+			{
+				"id": "20705821-aa40-49a3-ab7f-5d44ca733295",
+				"name": "Planning and programming advice",
+				"codename": "papa",
+				"terms": []
+			},
+			{
+				"id": "47e31650-4421-42d8-bec4-fe7595aa78cf",
+				"name": "Parent guides",
+				"codename": "pguide",
+				"terms": []
+			},
+			{
+				"id": "23f6ef56-d788-4f39-affe-5e7a39b8e1f9",
+				"name": "Web resource",
+				"codename": "web_resource",
+				"terms": []
+			},
+			{
+				"id": "c8e13138-dc46-4dc3-8d2a-38024055d831",
+				"name": "HSC exam papers",
+				"codename": "hscpapers",
+				"terms": []
+			},
+			{
+				"id": "ccc0a94a-12e1-4740-91de-679adba9a050",
+				"name": "Standards materials",
+				"codename": "standardsmaterials",
+				"terms": []
+			},
+			{
+				"id": "2de6c8e2-25b1-4674-bc30-58cb0c46fb0c",
+				"name": "Sample assessment schedules",
+				"codename": "sampleassessschedules",
+				"terms": []
+			},
+			{
+				"id": "e4f7d867-bea7-4c72-bc67-d30391a86043",
+				"name": "Sample formal assessment tasks",
+				"codename": "sampleassesstasks",
+				"terms": []
+			},
+			{
+				"id": "c766a49e-7093-4e0e-9d27-7963a018da01",
+				"name": "Language specific support",
+				"codename": "languagesupport",
+				"terms": []
+			},
+			{
+				"id": "8363e97e-4e8e-4f72-aaad-8051f42c278c",
+				"name": "Other",
+				"codename": "other",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-08-12T03:15:21.3562999Z",
+		"id": "3163763f-c8a5-415b-bd31-a2440d0ff2f5",
+		"name": "Stage",
+		"codename": "stage",
+		"terms": [
+			{
+				"id": "58f13ff6-2c0f-4093-9e9f-bc4d84941d40",
+				"name": "Early Stage 1",
+				"codename": "early_stage_1",
+				"terms": []
+			},
+			{
+				"id": "560dde49-321c-42da-803e-6b14ce4b9a6d",
+				"name": "Stage 1",
+				"codename": "stage_1",
+				"terms": []
+			},
+			{
+				"id": "379714a5-a1ba-49cf-88a3-dc113f63662b",
+				"name": "Stage 2",
+				"codename": "stage_2",
+				"terms": []
+			},
+			{
+				"id": "35ebff1f-f49b-4861-881d-4aae3bf40be4",
+				"name": "Stage 3",
+				"codename": "stage_3",
+				"terms": []
+			},
+			{
+				"id": "636f4f53-1d54-4586-bb8f-25b3f07bfc5b",
+				"name": "Stage 4",
+				"codename": "stage_4",
+				"terms": []
+			},
+			{
+				"id": "76d4a7fc-a2a8-4bb7-9aae-a1b9269b8949",
+				"name": "Stage 5",
+				"codename": "stage_5",
+				"terms": []
+			},
+			{
+				"id": "b582a6d7-c422-4fcf-89fd-6947cb534620",
+				"name": "Stage 6",
+				"codename": "stage_6",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-08-02T03:16:23.6865806Z",
+		"id": "ea1e742a-9284-4364-b262-a5b71a50aea0",
+		"name": "Stage Group",
+		"codename": "stage_group",
+		"terms": [
+			{
+				"id": "5b481c9d-8c4d-4a56-bfe6-f84c2b96a736",
+				"name": "Primary (K–6)",
+				"codename": "primary",
+				"terms": []
+			},
+			{
+				"id": "14e97eb7-9f97-4a90-93d6-73762c4adad8",
+				"name": "Secondary (7–10)",
+				"codename": "secondary",
+				"terms": []
+			},
+			{
+				"id": "78bb9046-9d6c-4c1f-b9aa-4cce525de989",
+				"name": "Senior (11–12)",
+				"codename": "senior",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-07-06T02:47:21.652401Z",
+		"id": "470fa2dc-dbe4-4798-aaac-63180be3db75",
+		"name": "Stage Year",
+		"codename": "stage_year",
+		"terms": [
+			{
+				"id": "6215c0d2-783e-42e1-801b-6a7f8df0cc1e",
+				"name": "K",
+				"codename": "k",
+				"terms": []
+			},
+			{
+				"id": "490e6e6f-aeeb-441a-88a6-129380ff492a",
+				"name": "1",
+				"codename": "n1",
+				"terms": []
+			},
+			{
+				"id": "55b1e5c3-6c79-47a2-8ecb-04daa0f629b6",
+				"name": "2",
+				"codename": "n2",
+				"terms": []
+			},
+			{
+				"id": "ef7964ef-794a-4a9d-a1a8-bc330305f7c0",
+				"name": "3",
+				"codename": "n3",
+				"terms": []
+			},
+			{
+				"id": "7fe450d0-fdf0-42fc-80a7-5bb2a4d59ddc",
+				"name": "4",
+				"codename": "n4",
+				"terms": []
+			},
+			{
+				"id": "36129ed0-d9fc-4049-84a7-a87241fd3d3f",
+				"name": "5",
+				"codename": "n5",
+				"terms": []
+			},
+			{
+				"id": "ef288091-e550-4ec2-abf3-96e94684163d",
+				"name": "6",
+				"codename": "n6",
+				"terms": []
+			},
+			{
+				"id": "8228dcf3-f4c2-4180-b02d-4c9ef208ca32",
+				"name": "7",
+				"codename": "n7",
+				"terms": []
+			},
+			{
+				"id": "b60ab790-ca48-4548-bc66-1b41d40ea759",
+				"name": "8",
+				"codename": "n8",
+				"terms": []
+			},
+			{
+				"id": "a64e439c-d7db-4133-ab4e-c9e5ead07a82",
+				"name": "9",
+				"codename": "n9",
+				"terms": []
+			},
+			{
+				"id": "40116b24-041c-45c7-babe-987bd40bb393",
+				"name": "10",
+				"codename": "n10",
+				"terms": []
+			},
+			{
+				"id": "92c7ae30-5b32-46dc-a002-0c1c0114fd41",
+				"name": "11",
+				"codename": "n11",
+				"terms": []
+			},
+			{
+				"id": "d172b4a4-bc4c-4b14-a6e9-6813452dc8f9",
+				"name": "12",
+				"codename": "n12",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-07-18T06:58:51.5955308Z",
+		"id": "f0993400-00b0-4025-916d-c9df5bc8e34f",
+		"name": "Stages Hirachy Test",
+		"codename": "stages_hirachy_test",
+		"terms": [
+			{
+				"id": "331db9df-e613-4ee3-b838-04f457171a97",
+				"name": "primary",
+				"codename": "primary",
+				"terms": [
+					{
+						"id": "c58f20b0-1e89-4682-86dd-ce330604f1bb",
+						"name": "1",
+						"codename": "n1",
+						"terms": []
+					},
+					{
+						"id": "acb01dd9-c3ce-4dbf-8609-a7bfd0a2c8bc",
+						"name": "2",
+						"codename": "n2",
+						"terms": []
+					}
+				]
+			},
+			{
+				"id": "7e3a6c86-5678-42ad-a27f-493817c864ac",
+				"name": "secondary",
+				"codename": "secondary",
+				"terms": [
+					{
+						"id": "88084cd4-f04d-4047-bf46-611a20c4e37b",
+						"name": "3",
+						"codename": "n3",
+						"terms": []
+					},
+					{
+						"id": "882b8d0d-d467-434f-a85f-1d8252d8ea22",
+						"name": "4",
+						"codename": "n4",
+						"terms": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"last_modified": "2022-11-24T05:32:42.8704272Z",
+		"id": "01ccfa03-ecd3-4e6f-902b-027c9a31ef87",
+		"name": "Structure Type",
+		"codename": "structuretype",
+		"terms": [
+			{
+				"id": "386a1148-2d82-4172-86fd-12e0385c43eb",
+				"name": "Core",
+				"codename": "core",
+				"terms": []
+			},
+			{
+				"id": "3a7c16e0-6b6d-4d79-bd6f-80aa2f0a1731",
+				"name": "Paths",
+				"codename": "paths",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-12-06T06:54:24.2561711Z",
+		"id": "897afd5c-15be-46ab-97a6-4433bfaee097",
+		"name": "Syllabus",
+		"codename": "syllabus",
+		"terms": [
+			{
+				"id": "652f681f-dcdc-4fe8-bdfc-0bf993b2c215",
+				"name": "------------ K-10",
+				"codename": "k_10",
+				"terms": []
+			},
+			{
+				"id": "018c1cd5-5fb8-4911-acf3-84e3e6e603c7",
+				"name": "Aboriginal Languages K–10",
+				"codename": "aboriginal_lang_k_10_2022",
+				"terms": []
+			},
+			{
+				"id": "520ee432-d0ad-49d4-a5d3-b57950e210b5",
+				"name": "Auslan K–10",
+				"codename": "auslan_k_10_2023",
+				"terms": []
+			},
+			{
+				"id": "26e17d57-809d-47c0-b8ca-8f045a7fd62d",
+				"name": "Classical Languages K–10",
+				"codename": "classical_lang_k_10_2022",
+				"terms": []
+			},
+			{
+				"id": "e6e700f4-5d90-46ec-9b67-456b1ffa05fa",
+				"name": "Creative Arts K–6",
+				"codename": "arts_k_6_2023",
+				"terms": []
+			},
+			{
+				"id": "ba15c82e-2537-4b1a-8630-e31af0c4ffc2",
+				"name": "English K–10",
+				"codename": "english_k_10_2022",
+				"terms": []
+			},
+			{
+				"id": "50d96d05-ae68-4afa-a8f7-8ddb03534de8",
+				"name": "Human society and its environment K–6",
+				"codename": "hsie_k_6_2023",
+				"terms": []
+			},
+			{
+				"id": "fa90d896-0d1d-4ecf-9cd0-022a5f50f0b6",
+				"name": "Mathematics K–10",
+				"codename": "mathematics_k_10_2022",
+				"terms": []
+			},
+			{
+				"id": "f0122027-a18b-4b27-9cac-cd0a8f55af53",
+				"name": "Modern Languages K–10",
+				"codename": "modern_lang_k_10_2022",
+				"terms": []
+			},
+			{
+				"id": "23efcaef-a4b9-4e11-ae5b-67013ff86714",
+				"name": "Personal Development, Health and Physical Education K–10",
+				"codename": "pdhpe_k_10_2023",
+				"terms": []
+			},
+			{
+				"id": "97b29684-5907-47cb-8270-437560e41445",
+				"name": "Science and Technology K–6",
+				"codename": "sci_tech_k_6_2023",
+				"terms": []
+			},
+			{
+				"id": "64222d20-4f0a-43ba-9075-b0f9e04c9e2f",
+				"name": "Aboriginal Studies 7–10",
+				"codename": "aboriginal_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "4eedcabb-e2b2-4c57-b823-2088e2fbdcfb",
+				"name": "Applied Technologies 7–10",
+				"codename": "applied_tech_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "993f6c06-5ef3-49b6-91fa-d4e273a9fa44",
+				"name": "Child Studies 7–10",
+				"codename": "child_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "e78e1e9d-a04c-4a5c-a26f-9a4e356be07f",
+				"name": "Commerce 7–10",
+				"codename": "commerce_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "357d85c5-249c-4224-af87-5226c7a7f06a",
+				"name": "Computing Technology 7–10",
+				"codename": "computing_7_10_2022",
+				"terms": []
+			},
+			{
+				"id": "faf433f5-4f92-4c70-90ab-3b77ded03155",
+				"name": "Dance 7–10",
+				"codename": "dance_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "63716fd9-63d1-45aa-b222-adb04590cf8f",
+				"name": "Drama 7–10",
+				"codename": "drama_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "f6c832a1-4f65-4ee1-a9d7-8de3045dae82",
+				"name": "Environmental Technologies 7–10",
+				"codename": "env_tech_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "17ab3282-49d5-4799-b70f-aded0971875b",
+				"name": "Geography Elective 7–10",
+				"codename": "geo_ele_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "e411fc4f-4d46-4f3d-84c9-e4d8c9c7c8ce",
+				"name": "Geography Mandatory 7–10",
+				"codename": "geo_man_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "6591c752-7cd6-43c4-9be9-af9c686058ad",
+				"name": "History Elective 7–10",
+				"codename": "history_ele_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "5f73a40f-7cfa-4f13-8514-25be4e7aff18",
+				"name": "History Mandatory 7–10",
+				"codename": "history_man_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "437eb70c-d4bc-47e0-b729-2523b5b7cbbc",
+				"name": "Industrial Technology 7–10",
+				"codename": "industrial_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "f971f6d0-cf11-4e2d-9bc4-2f14faac425b",
+				"name": "Music 7–10",
+				"codename": "music_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "3f353826-be8e-4bfd-beab-37ce8dc6364d",
+				"name": "Photographic and Digital Media 7–10",
+				"codename": "photo_media_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "b8dcecad-7184-4da7-9f26-f367f9d029ef",
+				"name": "Physical Activity and Sports Studies 7–10",
+				"codename": "pass_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "d29ad5fe-ed0c-47ce-bce3-257bcbbefd13",
+				"name": "Science 7–10",
+				"codename": "science_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "abd5b9f1-cafc-40c7-8390-5bd3bd31c7ef",
+				"name": "Technology Mandatory 7–8",
+				"codename": "tech_man_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "c7d57e9c-b9cc-4966-b19d-e49006da5ca8",
+				"name": "Agricultural Technology 7–10",
+				"codename": "agricultural_tech_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "995a7436-6b04-4ab1-a1e9-24d60c64f6a1",
+				"name": "Visual Arts 7–10",
+				"codename": "visual_arts_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "38777494-7a0d-40d4-a1ee-0fce43f1590f",
+				"name": "Visual Design 7–10",
+				"codename": "visual_design_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "a5ec4141-824e-4441-b224-83715807ac24",
+				"name": "Work Education 7–10",
+				"codename": "work_edu_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "47f016a6-94d0-4513-a14f-0f8507c81621",
+				"name": "------------ 11-12 English",
+				"codename": "n11_12_english",
+				"terms": []
+			},
+			{
+				"id": "21d52843-da47-4c62-8a87-68d6fadead26",
+				"name": "English Advanced",
+				"codename": "english_adv_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "438840f3-e4c8-4e02-9bbf-e070756550b2",
+				"name": "English EAL/D",
+				"codename": "english_eald_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "9dd50861-edc1-4e15-91a0-683c0315180f",
+				"name": "English Extension",
+				"codename": "english_exi_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "36145e1f-ecc4-42ee-a548-e1a9143afc5f",
+				"name": "English Life Skills",
+				"codename": "english_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "683caf03-4cbd-4908-87ec-02e9f0d920d0",
+				"name": "English Standard",
+				"codename": "english_sta_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "949d93dc-09fa-41aa-af38-c2560a8a07bc",
+				"name": "English Studies",
+				"codename": "english_stu_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "a6317d46-51c3-4ca9-b565-a6dbe916d835",
+				"name": "------------ 11-12 Mathematics",
+				"codename": "n11_12_mathematics",
+				"terms": []
+			},
+			{
+				"id": "9666ff33-fe88-455c-b663-3ed5f2b20801",
+				"name": "Mathematics Advanced",
+				"codename": "mathematics_adv_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "88df3ef8-7549-41d0-965c-868982b6163f",
+				"name": "Mathematics Extension 1",
+				"codename": "mathematics_exi_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "75622479-ef58-45a8-9261-4714deb6c8af",
+				"name": "Mathematics Extension 2",
+				"codename": "mathematics_exii_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "ee6241bc-630c-4c06-9d88-840880208458",
+				"name": "Mathematics Life Skills",
+				"codename": "mathematics_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "8aab6e0c-c3ff-4c89-9458-cd1ce6b5f02f",
+				"name": "Mathematics Standard",
+				"codename": "mathematics_sta_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "a7acc8cf-592c-4281-b23d-98074d68188d",
+				"name": "Numeracy (2023)",
+				"codename": "numeracy_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "948f55e7-3d15-47e9-a98b-f263787770f1",
+				"name": "------------ 11-12 Science",
+				"codename": "n11_12_science",
+				"terms": []
+			},
+			{
+				"id": "26476fe3-4c6a-437b-bc1b-3890349d8549",
+				"name": "Biology",
+				"codename": "biology_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "a853c602-0520-4456-b204-0786c689bcd2",
+				"name": "Chemical World Science Life Skills",
+				"codename": "chemical_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "54a0ebbf-1e8b-416a-b6be-0527c025ed30",
+				"name": "Chemistry",
+				"codename": "chemistry_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "32e9e709-075f-49a3-938b-155bd79a3aed",
+				"name": "Earth and Environmental Science",
+				"codename": "earth_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "a25174f6-4f31-4fea-8ca1-47c1d9e6cec6",
+				"name": "Earth and Space Science Life Skills",
+				"codename": "earth_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "2c12de6b-d706-438e-b1e3-c8d083f2d014",
+				"name": "Investigating Science",
+				"codename": "inv_science_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "457375b3-f896-491b-ab44-02f68c198bf0",
+				"name": "Investigating Science Life Skills",
+				"codename": "inv_science_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "00ae98ff-9acf-43a5-ae38-ceabeb0d7347",
+				"name": "Living World Science Life Skills",
+				"codename": "living_science_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "8a5024c3-bb2e-48be-a843-a3df420537c6",
+				"name": "Physical World Science Life Skills",
+				"codename": "physical_sci_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "2f80e7d0-937f-4191-8bfc-d2f03538543d",
+				"name": "Physics",
+				"codename": "physics_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "93f6a321-033f-4f52-96e9-851b283dd207",
+				"name": "Science Extension",
+				"codename": "science_ext_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "a58feff5-ea72-4cc5-ad45-33dfe5bfaca0",
+				"name": "------------ 11-12 Technologies",
+				"codename": "n11_12_technologies",
+				"terms": []
+			},
+			{
+				"id": "22a39ac2-48e9-4206-84cb-0df0fa726ccb",
+				"name": "Agriculture",
+				"codename": "agriculture_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "4d354e48-9170-4075-ba0e-ae34ee4e36ee",
+				"name": "Agriculture Life Skills",
+				"codename": "agriculture_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "30f27450-a5ed-4d12-af8a-75e30809a8d4",
+				"name": "Computing Technology Life Skills 11-12",
+				"codename": "computing_ls_11_12_2022",
+				"terms": []
+			},
+			{
+				"id": "9feea61e-67d9-4f08-9fad-300a2b1fc2a3",
+				"name": "Design and Technology",
+				"codename": "design_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "6bcded62-0035-4d6e-ac43-19f93346d144",
+				"name": "Design and Technology Life Skills",
+				"codename": "design_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "4c241667-fbd4-45d5-be8c-982fdb84f0d6",
+				"name": "Engineering Studies",
+				"codename": "engineering_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "5ceea227-6cde-42bf-a98f-0c471f4ebbec",
+				"name": "Enterprise Computing 11-12",
+				"codename": "ent_computing_11_12_2022",
+				"terms": []
+			},
+			{
+				"id": "e273fe97-2393-492d-9874-c0b1c6f5b08f",
+				"name": "Food Technology",
+				"codename": "food_tech_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "0e20b9de-88b9-4809-a4a8-81150755070d",
+				"name": "Food Technology Life Skills",
+				"codename": "food_tech_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "8651f26a-0695-4f99-baeb-5d17859da687",
+				"name": "Industrial Technology",
+				"codename": "industrial_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "d1b9e7c3-9571-4e8e-8dc5-65a616aa955c",
+				"name": "Industrial Technology Life Skills",
+				"codename": "industrial_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "e3c1c087-fa2f-4720-b66d-78a0dab7e9f7",
+				"name": "Marine Studies",
+				"codename": "marine_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "86282ed6-1c95-436d-8d54-4f6d40da07b8",
+				"name": "Software Engineering 11-12",
+				"codename": "software_11_12_2022",
+				"terms": []
+			},
+			{
+				"id": "d6f9bdf2-3925-4df6-87e1-6fe60ee09108",
+				"name": "Technology Life Skills",
+				"codename": "technology_life_skills__2023_",
+				"terms": []
+			},
+			{
+				"id": "a0b24ced-bb53-419a-a6f8-2f99d73e577b",
+				"name": "Textiles and Design",
+				"codename": "textiles_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "49b2f74c-6706-415b-9c65-40b58c28caf8",
+				"name": "Textiles and Design Life Skills",
+				"codename": "textiles_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "98584528-5fe0-4fec-99be-846999bbd8b9",
+				"name": "------------ 11-12 HSIE",
+				"codename": "n11_12_hsie",
+				"terms": []
+			},
+			{
+				"id": "dbe07678-980d-4d52-ab5d-bb41e4f9d011",
+				"name": "Aboriginal Studies",
+				"codename": "aboriginal_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "80753681-2fa1-42be-9645-0180f5664bb2",
+				"name": "Aboriginal Studies Life Skills",
+				"codename": "aboriginal_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "968da091-4977-4c9e-9c77-c9e4e7a8144d",
+				"name": "Ancient History",
+				"codename": "ancient_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "af16fc46-c66e-4e74-a03f-dca3a4b1efc9",
+				"name": "Ancient History Life Skills",
+				"codename": "ancient_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "607c3a75-5e21-43fb-8bb4-7bfe7ca464bd",
+				"name": "Business and Economics Life Skills",
+				"codename": "business_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "a3ccd33e-eca7-4e80-b467-0ccd8d42113e",
+				"name": "Business Studies",
+				"codename": "business_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "9ba17921-884c-4113-85cb-e8cb079c325b",
+				"name": "Economics",
+				"codename": "economics_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "d4287f85-c716-4ba6-9109-695c88e92849",
+				"name": "Geography 11-12",
+				"codename": "geography_11_12_2022",
+				"terms": []
+			},
+			{
+				"id": "d1ce3af1-b920-499e-b1d0-2aa1c65f7687",
+				"name": "Geography Life Skills 11-12",
+				"codename": "geography_ls_11_12_2022",
+				"terms": []
+			},
+			{
+				"id": "ceceb0e1-a711-4950-b913-e417edccad96",
+				"name": "History Extension",
+				"codename": "history_ext_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "0a2f81de-23d6-4c45-832c-9aad42f28ffc",
+				"name": "Human Society and its Environment Life Skills",
+				"codename": "hsie_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "ede52d2c-3032-4f0d-ae87-1e4a942957d7",
+				"name": "Legal Studies",
+				"codename": "legal_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "3b6be803-4582-498f-abeb-eb25b22eb767",
+				"name": "Legal Studies Life Skills",
+				"codename": "legal_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "541f7259-0c79-4278-99b4-7c7d6e22d7a0",
+				"name": "Modern History",
+				"codename": "modern_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "589925d0-9592-4063-813c-85d335a055be",
+				"name": "Modern History Life Skills",
+				"codename": "modern_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "358d1da4-0cec-4a7d-bc67-c575c1e64a85",
+				"name": "Society and Culture",
+				"codename": "society_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "1f5d08de-fda1-43f8-ad72-64ebf388c925",
+				"name": "Society and Culture Life Skills",
+				"codename": "society_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "471c269d-8b79-4c58-b3d4-2e3b59ebf764",
+				"name": "Studies of Religion 1",
+				"codename": "religion_i_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "c0e597c1-f782-41ce-a517-c0a256fbfc2d",
+				"name": "Studies of Religion 1 Life Skills",
+				"codename": "religion_i_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "fb96f38b-67ad-4b53-87ee-e9bbcb318aaf",
+				"name": "Studies of Religion 2",
+				"codename": "religion_ii_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "55de6a33-6486-4a34-b8b8-400d669bf3f3",
+				"name": "Studies of Religion 2 Life Skills",
+				"codename": "religion_ii_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "2f5a4b63-987f-46c1-970b-810ec5be3c69",
+				"name": "Work and the Community Life Skills",
+				"codename": "work_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "fea219aa-2497-42db-a130-34b027958ec3",
+				"name": "Work Studies",
+				"codename": "work_studies_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "6d0a2dc8-f2c4-4063-9333-0ab81eacd4d9",
+				"name": "------------ 11-12 Creatve Arts",
+				"codename": "n11_12_creatve_arts",
+				"terms": []
+			},
+			{
+				"id": "8de24cdc-3ee9-47ac-87ed-b20d29b75c78",
+				"name": "Creative Arts Life Skills",
+				"codename": "arts_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "b623eb0d-765d-4c51-ab21-6ad04d63d699",
+				"name": "Dance",
+				"codename": "dance_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "3917047b-4605-4737-8640-2514ee0a83cd",
+				"name": "Dance Life Skills",
+				"codename": "dance_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "0ea09e16-8acb-4c09-b5cf-03a93daa2289",
+				"name": "Drama",
+				"codename": "drama_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "052879e8-b7de-4ee2-97ee-8c8ac065b40d",
+				"name": "Drama Life Skills",
+				"codename": "drama_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "eb2274ab-b9de-4eec-956d-24aa7c3304fc",
+				"name": "Music 1",
+				"codename": "music_i_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "98db91ab-94b2-4cdd-9cc6-0922d405ceaf",
+				"name": "Music 2",
+				"codename": "music_ii_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "d99edc93-be0a-464e-a5a3-37f9bd4638f2",
+				"name": "Music Extension",
+				"codename": "music_ext_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "12892c6f-12f7-4407-abe6-24b57db51e55",
+				"name": "Music Life Skills",
+				"codename": "music_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "6914554a-44ba-46d9-80ab-c1905f139072",
+				"name": "Photography, Video and Digital Imaging",
+				"codename": "photo_video_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "8ed943f2-c072-4180-acac-60c3c004e107",
+				"name": "Visual Arts",
+				"codename": "visual_arts_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "084b8668-d166-49e6-a078-eb5c4c04f403",
+				"name": "Visual Arts Life Skills",
+				"codename": "visual_arts_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "111f71ca-242b-4b04-9957-f89b2e2af447",
+				"name": "Visual Design",
+				"codename": "visual_design_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "2239860a-6829-4026-a3bf-86c7fe9fee3a",
+				"name": "------------ 11-12 PDHPE ",
+				"codename": "n11_12_pdhpe_",
+				"terms": []
+			},
+			{
+				"id": "7b157e49-4231-4940-bad4-428f174d9d96",
+				"name": "Community and Family Studies",
+				"codename": "cfs_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "e8d9df74-dc32-4f1e-8b27-7d4b04bfc739",
+				"name": "Community and Family Studies Life Skills",
+				"codename": "cfs_ls_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "0e068b34-84e6-4f5d-96b1-3eb19741f95d",
+				"name": "Exploring Early Childhood",
+				"codename": "childhood_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "15a2f3b7-2808-4d4d-83df-5de680cdd947",
+				"name": "Health and Movement Science",
+				"codename": "health_11_12_2022",
+				"terms": []
+			},
+			{
+				"id": "fe9150f8-ebef-4721-ba7a-5e2e974f45b9",
+				"name": "Health and Movement Science Life Skills",
+				"codename": "health_ls_11_12_2022",
+				"terms": []
+			},
+			{
+				"id": "faa86525-523b-47a3-a859-a265705203ca",
+				"name": "Sport, Lifestyle and Recreation Studies",
+				"codename": "sport_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "0794b075-6387-4fe5-91e1-5079a8514228",
+				"name": "------------ 11-12 VET",
+				"codename": "_____________11_12_vet",
+				"terms": []
+			},
+			{
+				"id": "90c8887d-964b-4543-89dc-0153619d9ac5",
+				"name": "Automotive",
+				"codename": "auto_vet_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "219f7f25-9f35-4d94-a514-e29630474ff3",
+				"name": "Business Services",
+				"codename": "bus_vet_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "7b797af6-21bf-4be0-82b2-7e81144b1dae",
+				"name": "Construction",
+				"codename": "con_vet_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "29b672bb-01d0-43f3-999e-3aaa7e326744",
+				"name": "Electrotechnology",
+				"codename": "elec_vet_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "32e1c134-d4be-4954-a736-882f066998d4",
+				"name": "Information and Digital Technology",
+				"codename": "info_vet_11_12_2023",
+				"terms": []
+			},
+			{
+				"id": "ea018853-8a7f-4504-9589-e0c7ac22415d",
+				"name": "Marine and Aquaculture Technology 7–10",
+				"codename": "marine_tech_7_10_2023",
+				"terms": []
+			},
+			{
+				"id": "26a72a09-3356-4afc-b093-dea153634c07",
+				"name": "Engineering Technology 7–10",
+				"codename": "engineering_tech_7_10_2024",
+				"terms": []
+			},
+			{
+				"id": "4aaadcf6-ff54-42e3-b033-a07303d579f0",
+				"name": "Manufacturing Technology 7–10",
+				"codename": "manufacturing_tech_7_10_2024",
+				"terms": []
+			},
+			{
+				"id": "fb1e48b9-bc4c-4a70-9472-683ca774c389",
+				"name": "Textiles Technology 7–10",
+				"codename": "textiles_tech_7_10_2024",
+				"terms": []
+			},
+			{
+				"id": "2f6401a5-2555-47e5-b8fa-28f178bf71c7",
+				"name": "Food Technology 7–10",
+				"codename": "food_tech_7_10_2024",
+				"terms": []
+			},
+			{
+				"id": "5d077cac-923e-4b10-bab9-75688df47b69",
+				"name": "Digital Graphics Technology 7–10",
+				"codename": "digital_graphics_tech_7_10_2024",
+				"terms": []
+			},
+			{
+				"id": "fd4f4257-b3b4-493e-a238-09db5104f847",
+				"name": "Design Technology 7–10",
+				"codename": "design_tech_7_10_2024",
+				"terms": []
+			}
+		]
+	},
+	{
+		"last_modified": "2022-07-18T04:42:12.6132388Z",
+		"id": "edbd9c31-268c-46b6-b19f-2c0dc1da3475",
+		"name": "Syllabus Type",
+		"codename": "syllabustype",
+		"terms": [
+			{
+				"id": "e1bbb3e8-63b8-40f5-a7f6-c998b4b7fee9",
+				"name": "Mainstream",
+				"codename": "mainstream",
+				"terms": []
+			},
+			{
+				"id": "496ef53f-24c9-4471-bdb9-a88cedbea0e8",
+				"name": "Life Skills",
+				"codename": "life_skills",
+				"terms": []
+			},
+			{
+				"id": "7c462600-424c-47f1-af16-e701c69c53e0",
+				"name": "VET",
+				"codename": "vet",
+				"terms": []
+			}
+		]
+	}
+]

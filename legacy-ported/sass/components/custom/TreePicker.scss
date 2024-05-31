@@ -1,0 +1,178 @@
+@use './legacy-ported/sass/abstracts/variables';
+@use './legacy-ported/sass/abstracts/mixins';
+
+.tree-picker {
+	display: flex;
+	flex-flow: column nowrap;
+	overflow-y: auto;
+
+	@include ie-only {
+		&__element-wrapper:last-child {
+			border: 0px;
+		}
+	}
+
+	// @include all-mobile-devices {
+	// 	&__element-wrapper {
+	// 		border-bottom: solid 2px variables.$light40;
+	// 	}
+
+	// 	&__element-wrapper:last-child {
+	// 		border-bottom: 2px solid white;
+	// 	}
+	// }
+
+	&__element {
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+
+		@include ie-only {
+			margin-left: 12px;
+		}
+
+		// @include mixins.all-mobile-devices {
+		// 	padding: 5px 0px;
+		// 	margin: 5px 0px;
+		// }
+
+		.MuiFormControlLabel-label {
+			font-size: 16px;
+		}
+
+		&--depth-0 .MuiFormControlLabel-label {
+			//   font-weight: 600;
+			font-size: 16px;
+		}
+
+		&--depth-1 .MuiFormControlLabel-label {
+			//   font-weight: 500;
+		}
+
+		.MuiFormControlLabel-root {
+			margin-left: unset;
+			flex: 1;
+			@include mixins.ie-only {
+				margin-left: 0;
+			}
+		}
+
+		.MuiSvgIcon-root {
+			font-size: 2rem;
+		}
+	}
+
+	&__subtree {
+		width: 100%;
+		border-bottom: solid 2px variables.$light40;
+	}
+
+	&__subtree:last-child {
+		border-bottom: unset;
+
+		@include ie-only {
+			border: 0px;
+		}
+	}
+
+	&__subtree-children {
+		padding-left: 30px;
+
+		@include mobile {
+			padding-left: 20px;
+		}
+
+		@include mobile-large {
+			padding-left: 20px;
+		}
+	}
+
+	.tree-picker__checkbox {
+		color: variables.$black;
+		&.Mui-checked,
+		&.MuiCheckbox-indeterminate {
+			color: variables.$blue-primary;
+
+			&.Mui-disabled {
+				color: change-color(variables.$blue-primary, $alpha: 0.2);
+			}
+		}
+		&.MuiCheckbox-root {
+			margin-left: 0;
+		}
+
+		// @include all-mobile-devices {
+		// 	&--selected {
+		// 		background: $light10;
+		// 	}
+		// }
+	}
+
+	.tree-picker__iconbtn {
+		padding: 0;
+		margin: 0.5rem;
+	}
+
+	&__info {
+		border-left: 2px solid $blue-primary;
+	}
+
+	&__info-detail {
+		padding: 10px 15px;
+	}
+
+	&__tooltip-icon {
+		display: flex;
+		align-items: center;
+		padding-left: 10px;
+	}
+}
+
+.nsw-filters {
+	&--fixed {
+		.nsw-filters__item {
+			padding: 1rem 0;
+		}
+		&.nsw-filters .nsw-filters__cancel {
+			@apply pt-6;
+			border-top: 1px solid var(--nsw-grey-04);
+		}
+	}
+	&.active {
+		.nsw-filters__title {
+			display: none;
+		}
+	}
+	.nsw-nsw-form__fieldset {
+		padding: 0;
+	}
+	.tree-picker__element {
+		@include all-mobile-devices {
+			padding: 0;
+			margin: 0;
+		}
+	}
+	.tree-picker__element-wrapper {
+		border-bottom: 0;
+	}
+	.tree-picker__checkbox {
+		$this: &;
+		&.MuiCheckbox-root {
+			@apply mr-4;
+		}
+		&--selected {
+			@include all-mobile-devices {
+				background-color: transparent;
+			}
+		}
+	}
+	.tree-picker__subtree-children {
+		@apply pl-4;
+	}
+}
+.nsw-filters__cancel button:focus {
+	outline: none !important;
+}
+.nsw-filters__cancel button:active {
+	outline: solid 3px var(--nsw-focus) !important;
+}

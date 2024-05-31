@@ -1,0 +1,126 @@
+.syllabus-header-dialog {
+	width: 100%;
+	min-width: 596px;
+
+	@include all-mobile-devices {
+		min-width: inherit;
+	}
+
+	&__error {
+		font-style: italic;
+		color: $red-primary;
+	}
+
+	&__tab {
+		&--hidden {
+			display: none !important;
+		}
+	}
+
+	&__tabs {
+		padding-left: 50px;
+	}
+
+	&__checkbox-label {
+		display: flex !important;
+		align-items: center;
+	}
+
+	&__tooltip-icon {
+		display: flex;
+		align-items: center;
+		padding-left: 10px;
+	}
+
+	&__heading {
+		@include all-mobile-devices {
+			margin-top: 20px !important;
+		}
+	}
+
+	&__info {
+		border-left: 2px solid $blue-primary;
+	}
+
+	&__info-detail {
+		padding: 10px 15px;
+	}
+
+	&__stage-version-history {
+		margin-top: 30px;
+	}
+
+	&__stage-version-history:first-child {
+		margin-top: 0px;
+	}
+
+	&__stage-version-history:last-child {
+		hr {
+			display: none;
+		}
+	}
+
+	&__date {
+		display: flex;
+		padding: 10px 0px;
+		gap: 20px;
+	}
+
+	&__description-html {
+		p,
+		h5 {
+			padding: 10px 0px;
+		}
+
+		ul {
+			margin-left: 30px;
+		}
+	}
+
+	&__change-detail-container {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		margin-top: 10px;
+	}
+
+	&__change-detail-container:last-child {
+		hr {
+			display: none;
+		}
+	}
+
+	&__change-detail {
+		display: flex;
+		gap: 20px;
+		padding: 20px;
+		background: $white;
+		box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+		border-radius: 5px;
+
+		&--before {
+			background: $light20;
+		}
+	}
+
+	&__change-detail-type {
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 24px;
+
+		@media (max-width: 991px) {
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 24px;
+		}
+	}
+
+	&__tree-picker-wrapper {
+		// margin-left: -5px;
+	}
+}
+
+// overriding tab indicator color
+.PrivateTabIndicator-colorSecondary-4 {
+	background-color: $red-primary !important;
+}

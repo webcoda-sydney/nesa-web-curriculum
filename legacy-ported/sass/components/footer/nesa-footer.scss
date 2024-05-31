@@ -1,0 +1,25 @@
+.nesa-footer {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+
+    &__item {
+        padding-right: 25px;
+    }
+
+    &__link {
+        color: $blue-primary;
+    }
+}
+
+
+/**
+ * Overriding NSW section-link group
+ */
+.section-links__group {
+
+    @media (min-width: 62em) {
+        flex-basis: 20%;
+    }
+    
+}

@@ -1,0 +1,23 @@
+.mobile-header {
+  position: sticky;
+  top: 0;
+  transition: top 0.6s; /* Transition effect when sliding down (and up) */
+
+  max-height: 100vh;
+
+  z-index: 10;
+
+  display: flex;
+  flex-flow: column;
+
+  &__backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    z-index: -5;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}

@@ -1,0 +1,18 @@
+.resource-page {
+  &__body {
+    padding-top: 27px;
+    border-top: solid 2px $light40;
+  }
+
+  &__tab-panel {
+    padding-top: 20px;
+
+    @include all-mobile-devices {
+      margin: 0px 15px;
+    }
+  }
+
+  &__video-html-hidden {
+    display: none;
+  }
+}

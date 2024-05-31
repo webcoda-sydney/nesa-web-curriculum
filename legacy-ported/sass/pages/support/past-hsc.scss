@@ -1,0 +1,37 @@
+@use "../../abstracts/variables";
+
+.past-hsc {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+
+
+  &__title {
+    text-align: center;
+  }
+
+  &__body {
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+
+    padding-top: 27px;
+    border-top: solid 2px variables.$light40;
+
+    & > p {
+      margin-bottom: 1em;
+    }
+  }
+
+  &__link {
+    font-size: 16px;
+    margin-bottom: 1em;
+
+    background: none;
+    border: none;
+    padding: 0;
+    text-align: left;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

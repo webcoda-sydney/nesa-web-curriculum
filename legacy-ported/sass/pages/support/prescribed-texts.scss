@@ -1,0 +1,23 @@
+@use "../../abstracts/variables";
+
+.prescribed-texts {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+
+  &__title {
+  }
+
+  &__body {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 27px 19px;
+
+    padding-top: 27px;
+    border-top: solid 2px variables.$light40;
+  }
+
+  &__card {
+    width: 530px;
+  }
+}

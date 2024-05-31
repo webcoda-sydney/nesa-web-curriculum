@@ -1,0 +1,41 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+// .hidden {
+//   height: 1px;
+//   width: 1px;
+//   margin: -1px;
+//   border: 0;
+//   padding: 0;
+
+//   overflow: hidden;
+// }
+
+.float-right {
+  float: right;
+}
+
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.justify-content-space-between{
+  justify-content: space-between;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.noscroll {
+  overflow: hidden;
+}

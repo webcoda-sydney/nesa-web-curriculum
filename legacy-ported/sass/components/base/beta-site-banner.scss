@@ -1,0 +1,90 @@
+.beta-site-banner {
+  background: #333333;
+
+  p,
+  h4 {
+    color: $white;
+  }
+
+  &__beta-website-text {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+
+    @media (max-width: 991px) {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 24px;
+    }
+  }
+
+  &__container {
+    padding: 35px 0px;
+    height: 100%;
+
+    &--minimize {
+      padding: 1rem 0px;
+    }
+  }
+
+  & .beta-site-banner__item-container {
+    height: 100%;
+    width: auto;
+  }
+
+  &__text-container {
+    height: 100%;
+    flex-grow: 1;
+  }
+
+  &__minimize-link {
+    text-decoration: underline !important;
+    color: $white;
+    cursor: pointer;
+
+    @include all-mobile-devices {
+      padding: 0px !important;
+      min-width: unset !important;
+    }
+
+    &--white {
+      color: $white;
+    }
+  }
+
+  &__button-container {
+    margin-right: 10px;
+
+    &--maximize {
+      margin-top: 1.5rem;
+    }
+
+    @include mobile {
+      margin-top: 1.5rem;
+    }
+
+    @include mobile-large {
+      margin-top: 1.5rem;
+    }
+
+    &--first {
+      @include mobile {
+        margin-top: 0px !important;
+      }
+
+      @include mobile-large {
+        margin-top: 0px !important;
+      }
+    }
+  }
+
+  &__button {
+    min-width: 16rem !important;
+  }
+
+  &__maximize-minimize {
+    @include all-mobile-devices {
+      margin-top: 20px;
+    }
+  }
+}

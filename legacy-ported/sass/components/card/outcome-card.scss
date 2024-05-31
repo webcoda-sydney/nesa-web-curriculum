@@ -1,0 +1,67 @@
+.outcome-card {
+	$_this: &;
+	//   border: 1px solid white;
+	&__title {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+
+		#{$_this}--selected & {
+			color: #fff;
+		}
+
+		@include all-mobile-devices {
+			border-bottom: 1px solid $border-color;
+			padding-bottom: 10px !important;
+		}
+
+		@include laptop-desktop {
+			justify-content: center;
+			border-bottom: 1px solid $border-color;
+			padding-bottom: 10px !important;
+		}
+	}
+
+	&__outcome {
+		& + & {
+			border-top: 1px solid $border-color;
+			margin-top: 1rem;
+		}
+
+		@include all-mobile-devices {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		@include laptop-desktop {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+	//   &__outcome:last-child {
+	//     border: none;
+	//   }
+
+	&--selectable {
+		cursor: pointer;
+	}
+
+	&--selected {
+		background-color: $blue-primary !important;
+		border: 1px solid $blue-primary;
+		color: #fff;
+	}
+
+	&__outcome-text {
+		@include all-mobile-devices {
+			margin: 10px 0px !important;
+		}
+		@include laptop-desktop {
+			margin: 10px 0px !important;
+		}
+	}
+}

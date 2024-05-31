@@ -1,0 +1,8 @@
+[functions]
+  # Specifies `esbuild` for functions bundling
+  node_bundler = "esbuild"
+[[headers]]
+	for = "/*"
+  	[headers.values]
+		Basic-Auth = "${BASICAUTH_USERNAME}:${BASICAUTH_PASSWORD}"
+

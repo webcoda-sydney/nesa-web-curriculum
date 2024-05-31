@@ -1,0 +1,221 @@
+
+.fix-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 50px;
+  background: white;
+  width: 100%;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  z-index: 10;
+
+  transition: top 0.6s; /* Transition effect when sliding down (and up) */
+
+  display: none;
+  @include mui-sm-minus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.content-organizer-container {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+
+  @include mui-md-minus {
+    padding: 15px;
+  }
+}
+
+.content-organizer {
+  display: flex;
+  flex: 1;
+  margin-top: 70px;
+
+  @include mui-sm-minus {
+    margin-top: unset;
+    flex-direction: column;
+  }
+
+
+  //@include mobile {
+  //}
+  //
+  //@include mobile-large {
+  //  margin-top: unset;
+  //  flex-direction: column;
+  //}
+  //@include low-res-tablet-and-mobile-landscape {
+  //  margin-top: unset;
+  //  flex-direction: column;
+  //}
+  //@include ipad-pro-portrait {
+  //  margin-top: 0;
+  //}
+
+  .nsw-button--secondary {
+    color: $blue-primary;
+  }
+
+  &__body {
+    padding: 0px;
+    //@include low-res-tablet-and-mobile-landscape {
+    //  flex-direction: column-reverse;
+    //}
+    //@include all-mobile-devices {
+    //  max-width: 100%;
+    //  margin: 0 auto !important;
+    //}
+    //@include tablet-ipad {
+    //  display: flex !important;
+    //  flex-wrap: nowrap !important;
+    //}
+    //@include ipad-pro-portrait {
+    //  display: flex !important;
+    //  flex-wrap: nowrap !important;
+    //  flex-direction: column-reverse;
+    //}
+  }
+
+  &__outcome-card-wrapper {
+    margin-bottom: 15px;
+  }
+
+  &__desktop-content {
+    @include mui-sm-minus {
+      display: none;
+    }
+  }
+
+  &__mobile-content {
+    margin-top: 15px;
+
+    display: none;
+    @include mui-sm-minus {
+      display: flex;
+      flex-flow: column nowrap;
+    }
+  }
+
+  &__outcome-card-wrapper:last-child {
+    margin-bottom: unset;
+  }
+
+  &__outcome-title {
+    h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 28px;
+      color: $blue-primary;
+      margin-top: 0;
+    }
+  }
+
+  &__support-link {
+    text-decoration: none;
+  }
+
+  &__filter-buttons {
+    margin-top: -58px;
+
+    @include mui-md-minus {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      .button {
+        width: 45%;
+      }
+    }
+
+    //@include mobile {
+    //  display: none !important;
+    //}
+    //
+    //@include mobile-large {
+    //  display: none !important;
+    //}
+    //
+    //@include mobile-small {
+    //  display: none !important;
+    //}
+    //
+    //@include tablet-ipad {
+    //  margin-top: 10px;
+    //}
+    //@include tablet-ipad-landscape{
+    //  display: flex;
+    //  flex-direction: row !important;
+    //  justify-content: space-evenly !important;
+    //  .button{
+    //    width: 45%;
+    //  }
+    //}
+  }
+
+  &__filter-button {
+    margin-left: 20px !important;
+    margin-bottom: 10px !important;
+  }
+
+  &__filter-buttons-mobile {
+    display: none;
+
+    @include mui-sm-minus {
+      gap: 10px;
+      margin: 10px 0px;
+      display: block;
+    }
+
+    //@include mobile {
+    //  gap: 10px;
+    //  margin: 10px 0px;
+    //  display: block;
+    //}
+    //
+    //@include mobile-small {
+    //  gap: 10px;
+    //  margin: 10px 0px;
+    //  display: block;
+    //}
+    //
+    //@include mobile-large {
+    //  gap: 10px;
+    //  margin: 10px 0px;
+    //  display: block;
+    //}
+  }
+
+  &__filter-button-mobile {
+    margin: 5px 0px;
+  }
+
+  &__tags-overlay {
+    overflow-y: auto;
+    max-height: 450px;
+  }
+
+  .fixed-footer {
+    position: sticky;
+    bottom: 0;
+    background: white;
+    margin-bottom: 0;
+    padding: 5px;
+    max-width: 100%;
+    //@include tablet-ipad {
+    //  justify-content: center;
+    //}
+  }
+
+  &__btn-container {
+    @include mui-sm-minus {
+      padding: 5px;
+    }
+  }
+}

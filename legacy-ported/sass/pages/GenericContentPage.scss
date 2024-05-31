@@ -1,0 +1,9 @@
+.generic-content-page {
+  align-items: flex-start;
+
+  @include all-mobile-devices {
+    max-width: 95vw !important;
+    margin: 0 auto;
+  }
+
+}

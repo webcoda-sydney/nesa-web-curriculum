@@ -1,0 +1,169 @@
+.syllabus-overview-page {
+  width: 100%;
+
+  img{
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+
+    @include all-mobile-devices {
+      margin: 0px -15px;
+    }
+  }
+
+  .MuiTabs-root {
+    border-bottom: 1px solid grey;
+  }
+
+  .MuiTab-root {
+    padding: 6px 15px;
+    text-transform: unset !important;
+    min-width: 50px;
+
+    @media (min-width: 1024px) {
+      min-width: 50px;
+    }
+
+    @include mobile {
+      min-width: 69.5vw;
+      max-width: 200px;
+    }
+
+    @include mobile-large {
+      min-width: 71vw;
+      max-width: 230px;
+    }
+
+    @include low-res-tablet-and-mobile-landscape{
+      min-width: 83.5vw;
+      max-width: 200px;
+    }
+  }
+
+  .MuiTab-textColorInherit {
+    color: unset;
+    opacity: unset;
+  }
+
+  .MuiTab-wrapper {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .Mui-selected {
+    color: $black;
+
+    .MuiTab-wrapper {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 19px;
+    }
+  }
+
+  .MuiTabScrollButton-root {
+    width: 20px;
+    @include ipad-pro-portrait-and-landscape{
+      display: none;
+    }
+    @include tablet-ipad-landscape{
+      display: none;
+
+    }
+  }
+
+  .MuiTabs-scroller {
+    @include ie-only {
+      -ms-overflow-style: none;
+      padding-bottom: 15px;
+    }
+  }
+
+  .custom-tabs {
+    display: flex;
+    .nsw-link{
+      color: $blue-primary;
+      text-decoration: none;
+    }
+  }
+
+  .stages-header {
+    background: $light10 !important;
+
+    .custom-tab {
+      padding: 10px 25px 15px;
+      border-bottom: 2px solid $light10;
+      &--selected {
+        // removed border: issue 330
+        //border-bottom: 2px solid $red-primary;
+      }
+    }
+
+    .custom-tab--disabled {
+      color: $light40;
+    }
+  }
+}
+
+.MuiTabs-indicator{
+  // rewrite the pink from Material UI
+  background-color: $red-primary!important;
+}
+
+.custom-modal-mobile-tabs {
+  padding: 0px 10px;
+
+  .MuiTab-root {
+
+    @include mobile {
+      min-width: 53.5vw;
+      max-width: 200px;
+    }
+
+    @include mobile-large {
+      min-width: 53.5vw;
+      max-width: 200px;
+    }
+    @include low-res-tablet-and-mobile-landscape {
+      min-width: 53.5vw;
+      max-width: 200px;
+    }
+  }
+
+  .syllabus-header__custom-tabs {
+    color: $blue-primary;
+    width: 100%;
+
+    @include mobile {
+      margin: unset;
+    }
+
+    @include mobile-large {
+      margin: unset;
+    }
+
+    @include low-res-tablet-and-mobile-landscape {
+      margin: unset;
+    }
+  }
+
+  .MuiTabs-scrollButtons {
+    @include small-screens {
+      display: none;
+    }
+  }
+
+}
+
+
+.MuiTabs-scrollButtonsDesktop{
+  @include low-res-tablet-and-mobile-landscape {
+    display: none !important;
+  }
+}

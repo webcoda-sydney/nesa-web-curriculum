@@ -1,0 +1,49 @@
+@use './legacy-ported/sass/abstracts/variables';
+
+.glossary-body {
+	&__definition {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: flex-start;
+
+		border-top: solid 2px variables.$light40;
+
+		padding: 15px 0;
+
+		&:first-child {
+			border-top: 0;
+			padding-top: 0;
+		}
+
+		&:last-child {
+			padding-bottom: 0;
+		}
+
+		ul,
+		ol {
+			margin-left: 0;
+		}
+
+		.richtext > ul {
+			padding-left: 25px;
+		}
+
+	}
+
+	&__chip {
+		margin-bottom: 15px;
+	}
+
+	.nesa-accordion__content p {
+		margin-bottom: 10px;
+	}
+
+	.nsw-accordion__button {
+		&.is-open {
+			.nsw-accordion__icon {
+				transform: translateY(-50%) rotate(180deg);
+			}
+		}
+	}
+
+}

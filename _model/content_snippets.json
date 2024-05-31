@@ -1,0 +1,496 @@
+[
+	{
+		"id": "0aa80a9b-c5f2-41e1-b34a-e2d3b9b69811",
+		"codename": "languages_include",
+		"last_modified": "2022-11-22T22:42:43.4314679Z",
+		"name": "🏷️ Applies to languages",
+		"elements": [
+			{
+				"guidelines": null,
+				"taxonomy_group": {
+					"id": "17d3381c-61bd-470d-83c7-8b8930613cf5"
+				},
+				"is_required": false,
+				"is_non_localizable": false,
+				"term_count_limit": null,
+				"default": null,
+				"type": "taxonomy",
+				"id": "822f0773-c588-4d7c-91b2-a8cef63d7e5e",
+				"codename": "languages_include__items"
+			}
+		]
+	},
+	{
+		"id": "9c30d060-fa74-4d16-80ad-e66fa5ccffdf",
+		"codename": "syllabuses_include",
+		"last_modified": "2022-11-22T22:41:50.0260201Z",
+		"name": "🏷️ Applies to syllabuses",
+		"elements": [
+			{
+				"guidelines": null,
+				"taxonomy_group": {
+					"id": "897afd5c-15be-46ab-97a6-4433bfaee097"
+				},
+				"is_required": false,
+				"is_non_localizable": false,
+				"term_count_limit": null,
+				"default": null,
+				"type": "taxonomy",
+				"id": "ad518b46-6097-4eba-962e-018290102998",
+				"codename": "syllabuses_include__items"
+			}
+		]
+	},
+	{
+		"id": "c99f0641-ec77-42c8-8112-ea070f603f2f",
+		"codename": "endorsement_type",
+		"last_modified": "2022-06-27T02:59:55.6881005Z",
+		"name": "🏷️ Endorsement type",
+		"elements": [
+			{
+				"guidelines": null,
+				"taxonomy_group": {
+					"id": "63907295-d3d2-45d9-80d0-bb1b8ee6844b"
+				},
+				"is_required": true,
+				"is_non_localizable": false,
+				"term_count_limit": {
+					"value": 1,
+					"condition": "exactly"
+				},
+				"default": null,
+				"type": "taxonomy",
+				"id": "0350f224-eb4f-4dbf-a9c9-775b60c2b89c",
+				"codename": "endorsement_type__items"
+			}
+		]
+	},
+	{
+		"id": "9522b253-0a23-4816-9d42-d67f1de07baf",
+		"codename": "enrolment_type",
+		"last_modified": "2022-06-27T03:34:05.4405734Z",
+		"name": "🏷️ Enrolment Type",
+		"elements": [
+			{
+				"guidelines": null,
+				"taxonomy_group": {
+					"id": "eeebb2e0-0547-49fb-a7e0-b7e52eb90ece"
+				},
+				"is_required": true,
+				"is_non_localizable": false,
+				"term_count_limit": {
+					"value": 1,
+					"condition": "exactly"
+				},
+				"default": {
+					"global": {
+						"value": [
+							{
+								"id": "c6d89104-7173-4746-aa2a-9f677decd7eb"
+							}
+						]
+					}
+				},
+				"type": "taxonomy",
+				"id": "16bc474e-3c20-4818-b0ea-3830e05d652c",
+				"codename": "enrolment_type__items"
+			}
+		]
+	},
+	{
+		"id": "a3911dff-0e5f-4cb7-91ab-aa3868cf09d3",
+		"codename": "languages_exclude",
+		"last_modified": "2022-11-22T22:49:51.8662062Z",
+		"name": "🏷️ Exclude languages",
+		"elements": [
+			{
+				"guidelines": null,
+				"taxonomy_group": {
+					"id": "17d3381c-61bd-470d-83c7-8b8930613cf5"
+				},
+				"is_required": false,
+				"is_non_localizable": false,
+				"term_count_limit": null,
+				"default": null,
+				"type": "taxonomy",
+				"id": "106db4b2-7914-4666-9352-6001060aa308",
+				"codename": "languages_exclude__items"
+			}
+		]
+	},
+	{
+		"id": "46608bc6-2e75-4559-a62e-f9d884706ccf",
+		"codename": "syllabuses_exclude",
+		"last_modified": "2022-11-22T22:49:13.9883942Z",
+		"name": "🏷️ Exclude syllabuses",
+		"elements": [
+			{
+				"guidelines": null,
+				"taxonomy_group": {
+					"id": "897afd5c-15be-46ab-97a6-4433bfaee097"
+				},
+				"is_required": false,
+				"is_non_localizable": false,
+				"term_count_limit": null,
+				"default": null,
+				"type": "taxonomy",
+				"id": "a21fcda4-8cdc-4ed9-9758-304431b0a0c8",
+				"codename": "syllabuses_exclude__items"
+			}
+		]
+	},
+	{
+		"id": "0a7eaa5b-8847-49ec-89c9-ec3e1bab4e20",
+		"codename": "key_learning_area",
+		"last_modified": "2022-06-23T12:06:58.5478009Z",
+		"name": "🏷️ Key Learning Area",
+		"elements": [
+			{
+				"guidelines": null,
+				"taxonomy_group": {
+					"id": "419c60fd-0ec8-43b7-9648-db23d146d148"
+				},
+				"is_required": true,
+				"is_non_localizable": false,
+				"term_count_limit": {
+					"value": 1,
+					"condition": "at_least"
+				},
+				"default": null,
+				"type": "taxonomy",
+				"id": "d4be49ed-5b70-4bf1-8396-c4c4ba8a1877",
+				"codename": "key_learning_area__items"
+			}
+		]
+	},
+	{
+		"id": "1cd3b128-0e50-411d-9eca-044cdab768c8",
+		"codename": "stages",
+		"last_modified": "2022-07-06T06:33:58.2902852Z",
+		"name": "🏷️ Stages",
+		"elements": [
+			{
+				"guidelines": null,
+				"taxonomy_group": {
+					"id": "ea1e742a-9284-4364-b262-a5b71a50aea0"
+				},
+				"is_required": true,
+				"is_non_localizable": false,
+				"term_count_limit": {
+					"value": 1,
+					"condition": "at_least"
+				},
+				"default": null,
+				"type": "taxonomy",
+				"id": "a5222385-0941-43a7-90fd-06b9440ebadb",
+				"codename": "stages__stage_groups"
+			},
+			{
+				"guidelines": "Please select all 3 levels e.g. \"Secondary\" then \"Stage 4\" and  then \"7\" and/or \"8\"",
+				"taxonomy_group": {
+					"id": "3163763f-c8a5-415b-bd31-a2440d0ff2f5"
+				},
+				"is_required": true,
+				"is_non_localizable": false,
+				"term_count_limit": {
+					"value": 1,
+					"condition": "at_least"
+				},
+				"default": null,
+				"type": "taxonomy",
+				"id": "a1eaaaa8-f318-4099-b7c9-477e2cd51093",
+				"codename": "stages__stages"
+			},
+			{
+				"guidelines": null,
+				"taxonomy_group": {
+					"id": "470fa2dc-dbe4-4798-aaac-63180be3db75"
+				},
+				"is_required": true,
+				"is_non_localizable": false,
+				"term_count_limit": {
+					"value": 1,
+					"condition": "at_least"
+				},
+				"default": null,
+				"type": "taxonomy",
+				"id": "15c84d16-af82-4481-9368-abcb5b07578c",
+				"codename": "stages__stage_years"
+			}
+		]
+	},
+	{
+		"id": "f5b8f744-8afd-48e9-a1ff-58e23a12a189",
+		"codename": "syllabus_type",
+		"last_modified": "2022-06-23T12:07:17.3416727Z",
+		"name": "🏷️ Syllabus Type",
+		"elements": [
+			{
+				"guidelines": "Please select the Syllabus type for this resource",
+				"taxonomy_group": {
+					"id": "edbd9c31-268c-46b6-b19f-2c0dc1da3475"
+				},
+				"is_required": true,
+				"is_non_localizable": false,
+				"term_count_limit": {
+					"value": 1,
+					"condition": "exactly"
+				},
+				"default": null,
+				"type": "taxonomy",
+				"id": "132af31b-4f0d-4c71-ba94-bd0175566543",
+				"codename": "syllabus_type__items"
+			}
+		]
+	},
+	{
+		"id": "376b0676-2a97-4ea4-be37-f74e37801fbc",
+		"codename": "web_content_rtb",
+		"last_modified": "2022-10-25T23:15:07.0612685Z",
+		"name": "📜 Rich Text Box Web Content",
+		"elements": [
+			{
+				"maximum_text_length": null,
+				"maximum_image_size": null,
+				"allowed_content_types": [
+					{
+						"id": "25c609ed-88c5-4765-be24-6430c36c3652"
+					},
+					{
+						"id": "57273f03-c142-4e8b-82a6-93be4b6f6b31"
+					},
+					{
+						"id": "f03af4bc-f09e-405a-8fa6-937a184818a7"
+					},
+					{
+						"id": "24284152-dd5f-45d4-b4ab-7ef282d2211d"
+					},
+					{
+						"id": "7c82f987-dea9-4f5b-a969-9be7f9a0bfab"
+					},
+					{
+						"id": "6d5d5ce3-384d-418f-b7c6-d5c3ba660055"
+					},
+					{
+						"id": "f1f6162f-48ea-4860-8a53-9fc030ff8b51"
+					},
+					{
+						"id": "a67388ef-d0bf-44dc-8966-9d4294001b2f"
+					},
+					{
+						"id": "a0d46085-0884-4941-90d4-3597e57065b6"
+					},
+					{
+						"id": "2e9d7500-12ad-4076-b903-d2530967db67"
+					},
+					{
+						"id": "1583eb33-b14e-4ee5-88e5-48cd85cd7559"
+					},
+					{
+						"id": "5b5eff72-86c1-40a9-bf0a-ff06fdc6010b"
+					},
+					{
+						"id": "328cca16-590a-4b9a-9b35-59bb9b730947"
+					},
+					{
+						"id": "25ca1d99-a7f8-41ec-9a33-feca8d25763c"
+					},
+					{
+						"id": "3d06ad68-3152-4f45-8248-ccc919c47241"
+					},
+					{
+						"id": "16b8d520-01af-4168-8f4b-a9350df90b38"
+					},
+					{
+						"id": "7126e06b-d8f9-4e1b-be76-60d21110dad1"
+					},
+					{
+						"id": "43cf7b71-c17d-4d36-ac77-077db02dd4cb"
+					},
+					{
+						"id": "8381338d-fc89-4726-9fe6-bbcbf8cf3410"
+					}
+				],
+				"allowed_item_link_types": [
+					{
+						"id": "99e7bf4f-ffdd-41dd-afb1-d1fc10fe3ed9"
+					},
+					{
+						"id": "398abc4f-2591-42f9-a73a-b52a49fc49e9"
+					},
+					{
+						"id": "7f13920c-c08d-4402-af94-3db871391804"
+					},
+					{
+						"id": "abeaab42-5c6f-4411-92e5-3fb2d33246b9"
+					},
+					{
+						"id": "7e4b654e-8663-4dfb-a02a-d872a691f900"
+					},
+					{
+						"id": "c6e5c373-97a2-4215-be00-1fee2f045e0e"
+					},
+					{
+						"id": "5690dc10-d959-4a3b-a042-037533342850"
+					}
+				],
+				"image_width_limit": null,
+				"image_height_limit": null,
+				"allowed_image_types": "any",
+				"allowed_blocks": [
+					"text",
+					"components-and-items"
+				],
+				"allowed_formatting": [
+					"bold",
+					"italic",
+					"superscript",
+					"subscript",
+					"link",
+					"unstyled"
+				],
+				"allowed_text_blocks": [
+					"paragraph",
+					"heading-two",
+					"heading-three",
+					"heading-four",
+					"ordered-list",
+					"unordered-list"
+				],
+				"allowed_table_blocks": [],
+				"allowed_table_formatting": [],
+				"allowed_table_text_blocks": [],
+				"name": "📜 Content",
+				"guidelines": null,
+				"is_required": false,
+				"is_non_localizable": false,
+				"type": "rich_text",
+				"id": "0f9bc8e7-294b-4d36-bd85-b40789a81739",
+				"codename": "web_content_rtb__content"
+			}
+		]
+	},
+	{
+		"id": "c01fffce-ec30-5311-8a6d-52ad90934c1b",
+		"codename": "seo",
+		"last_modified": "2022-07-25T05:34:44.8305168Z",
+		"external_id": "cd4f247c-c04c-4336-8ddb-8760cf53dd0b",
+		"name": "📜 SEO",
+		"elements": [
+			{
+				"maximum_text_length": null,
+				"validation_regex": null,
+				"default": null,
+				"name": "🔗 Canonical URL",
+				"guidelines": null,
+				"is_required": false,
+				"is_non_localizable": false,
+				"type": "text",
+				"external_id": "d7ee1702-d35d-4c51-a179-c8b26c87b467",
+				"id": "440da44d-add4-58e0-89dc-422779bf5fb4",
+				"codename": "seo__canonical_url"
+			},
+			{
+				"maximum_text_length": null,
+				"validation_regex": null,
+				"default": null,
+				"name": "📜 SEO Title",
+				"guidelines": null,
+				"is_required": false,
+				"is_non_localizable": false,
+				"type": "text",
+				"external_id": "28610917-4e68-48ef-9a7d-012f286325c7",
+				"id": "9ca3abe2-e63e-5f9c-925b-79a95eb23525",
+				"codename": "seo__title"
+			},
+			{
+				"maximum_text_length": {
+					"value": 260,
+					"applies_to": "characters"
+				},
+				"validation_regex": null,
+				"default": null,
+				"name": "📜 SEO Description",
+				"guidelines": null,
+				"is_required": false,
+				"is_non_localizable": false,
+				"type": "text",
+				"external_id": "a50872bb-2bf5-4b45-8cd7-caff7d4a66fa",
+				"id": "3072a2d9-3e2c-59e6-bf81-85d9bc696a50",
+				"codename": "seo__description"
+			},
+			{
+				"maximum_text_length": null,
+				"validation_regex": null,
+				"default": null,
+				"name": "📜 SEO Keywords",
+				"guidelines": null,
+				"is_required": false,
+				"is_non_localizable": false,
+				"type": "text",
+				"external_id": "f2b4c652-7248-4a31-8d2c-4e485a1dfe39",
+				"id": "94c37747-eb31-5521-b6c6-69813bca4ab1",
+				"codename": "seo__keywords"
+			},
+			{
+				"mode": "multiple",
+				"options": [
+					{
+						"id": "d6efd15c-3a13-5ad5-af83-1ba3b7876336",
+						"codename": "no_index",
+						"name": "No Index",
+						"external_id": "38d1a7cd-3265-4d76-8f10-69eb091db944"
+					},
+					{
+						"id": "572f0ac3-9e80-49a3-a42f-e897344b2b8b",
+						"codename": "no_follow",
+						"name": "No Follow"
+					}
+				],
+				"default": null,
+				"name": "⚙️ Robots meta tag",
+				"guidelines": null,
+				"is_required": false,
+				"is_non_localizable": false,
+				"type": "multiple_choice",
+				"external_id": "81b73859-a544-4eb9-9468-2d93e423c9f9",
+				"id": "40c147cd-ba16-5ff1-beed-0228c3dc0494",
+				"codename": "seo__robots"
+			}
+		]
+	},
+	{
+		"id": "bd24cf09-22ac-4572-8ac6-eb1b8bd6dcc7",
+		"codename": "learningprogression_tags",
+		"last_modified": "2022-06-28T08:51:58.8192113Z",
+		"name": "🔖 Learning Progression Tags",
+		"elements": [
+			{
+				"guidelines": null,
+				"taxonomy_group": {
+					"id": "e09296c0-b133-42da-90c6-122f76013150"
+				},
+				"is_required": false,
+				"is_non_localizable": false,
+				"term_count_limit": null,
+				"default": null,
+				"type": "taxonomy",
+				"id": "5334fc75-ea6c-4c8b-a236-3e9f5321d6ae",
+				"codename": "learningprogression_tags__literacy"
+			},
+			{
+				"guidelines": null,
+				"taxonomy_group": {
+					"id": "857fe467-c003-4c78-8b7c-10ef5d1d6ef0"
+				},
+				"is_required": false,
+				"is_non_localizable": false,
+				"term_count_limit": null,
+				"default": null,
+				"type": "taxonomy",
+				"id": "9183d2fe-8fab-4b2c-b51f-c86265f29d33",
+				"codename": "learningprogression_tags__numeracy"
+			}
+		]
+	}
+]

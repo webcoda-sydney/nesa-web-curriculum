@@ -1,0 +1,16 @@
+.term {
+    text-decoration: underline;
+}
+
+.term-title {
+    font-weight: bold;
+}
+
+.term-info {
+    border-left: 2px solid $blue-tertiary;
+
+    &__detail {
+        padding: 10px 15px;
+    }
+}
+

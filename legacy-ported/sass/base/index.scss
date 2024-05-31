@@ -1,0 +1,12 @@
+@import './animations';
+@import './base';
+@font-face {
+    font-family: 'icomoon';
+    src: url('../../assets/fonts/icomoon/icomoon.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import './typography';
+@import './utilities';

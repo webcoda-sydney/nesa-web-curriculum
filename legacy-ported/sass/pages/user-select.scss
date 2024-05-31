@@ -1,0 +1,34 @@
+.user-select-page {
+
+  &__user-select-label {
+    @include font-size(32px);
+    line-height: 40px;
+    padding: 5rem 0px 4rem;
+  }
+
+  &__nesa {
+    margin: 20px;
+  }
+}
+
+/*
+ * Overriding nsw-card css
+ */
+.nsw-card {
+  //background: $grey !important;
+
+//   &__image-area {
+//     height: 300px !important;
+//   }
+
+//   &__content {
+//     padding: 1rem 2rem 4rem !important;
+//     @include all-mobile-devices {
+//       padding: 1rem 1rem 4rem !important;
+//     }
+//   }
+
+//   &__icon {
+//     bottom: 0.8125rem !important;
+//   }
+}

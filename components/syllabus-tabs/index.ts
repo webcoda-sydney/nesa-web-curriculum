@@ -1,0 +1,8 @@
+export * as aim from './Aim'
+export * as assessment from './Assessment'
+export * as content from './Content'
+export * as glossary from './Glossary'
+export * as outcomes from './Outcome'
+export * as overview from './Overview'
+export * as rationale from './Rationale'
+export * as teaching_and_learning from './TeachingLearning'

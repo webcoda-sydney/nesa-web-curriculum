@@ -1,0 +1,255 @@
+@use './legacy-ported/sass/abstracts/mixins';
+
+@mixin select {
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: $grey;
+	//   margin: 4px 0px;
+}
+
+.syllabus-header {
+	width: 100%;
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+	}
+	&__custom-tabs {
+		color: $blue-primary;
+		width: 100%;
+
+		@include mobile {
+			margin: 0px 25px;
+		}
+
+		@include mobile-large {
+			margin: 0px 25px;
+		}
+	}
+
+	&__body {
+		padding: 10px 0px;
+
+		@include all-mobile-devices {
+			display: block;
+		}
+	}
+
+	&__title-with-bottom-border {
+		border-bottom: 1px solid $light40;
+	}
+
+	&__tag {
+		padding: 10px;
+		color: white;
+		background-color: black;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+
+		@include all-mobile-devices {
+			display: none;
+		}
+	}
+
+	&__titles {
+		// padding: 0px 10px;
+		justify-content: center;
+
+		@include all-mobile-devices {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+		}
+
+		p {
+			@include all-mobile-devices {
+				width: 80%;
+				text-align: center;
+			}
+		}
+	}
+
+	&__main-title {
+		margin: 0 10px 0 0;
+	}
+
+	&__title {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	&__select-wrapper {
+		border-top: 1px black solid;
+		// border-bottom: 1px black solid;
+	}
+
+	&__select {
+		@include select();
+		display: flex;
+		padding: 0px 25px;
+
+		@include all-mobile-devices {
+			display: none;
+		}
+	}
+
+	&__subjects {
+		@include select();
+
+		.MuiTabs-root {
+			padding: 10px 0px !important;
+			border-bottom: unset !important;
+		}
+
+		.MuiTab-root {
+			max-width: 300px;
+		}
+
+		.MuiTab-wrapper {
+			font-size: 20px !important;
+			font-weight: 600 !important;
+			line-height: 28px !important;
+			text-decoration: underline;
+
+			@media (max-width: 991px) {
+				font-size: 18px !important;
+				font-weight: 600 !important;
+				line-height: 24px !important;
+			}
+		}
+	}
+
+	&__select-item {
+		font-weight: bold;
+	}
+
+	&__select-right {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		text-align: center;
+		align-items: center;
+		// padding: 10px 0px;
+		color: $blue-primary;
+
+		@include all-mobile-devices {
+			justify-content: space-around;
+		}
+	}
+
+	&__select-mobile {
+		display: none;
+
+		@include all-mobile-devices {
+			@include select();
+			display: block;
+			padding: 10px;
+		}
+	}
+
+	&__version-history {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-right: 20px;
+		font-weight: bold;
+		color: $blue-primary;
+		svg {
+			color: $blue-primary;
+		}
+
+		@include all-mobile-devices {
+			padding: 0px !important;
+		}
+	}
+
+	&__version-history-icon {
+		margin-right: 5px;
+		font-size: 17px !important;
+	}
+
+	&__edit-link {
+		padding-right: 20px;
+		text-decoration: underline !important;
+		color: $blue-primary;
+
+		@include all-mobile-devices {
+			padding: 0px !important;
+			min-width: unset !important;
+		}
+	}
+
+	&__tab-panel {
+		padding: 1rem 0px;
+
+		@include all-mobile-devices {
+			padding: 1rem;
+		}
+	}
+
+	&__text-capitalize {
+		text-transform: capitalize;
+	}
+
+	&__tab {
+		// font-weight: 100;
+		max-width: unset !important;
+
+		@include mobile {
+			// max-width: 200px !important;
+		}
+
+		@include mobile-large {
+			// max-width: 200px !important;
+		}
+
+		.MuiTab-wrapper {
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 19px;
+
+			@include mixins.ie-only {
+				text-transform: capitalize;
+			}
+		}
+
+		&--selected {
+			&#{&} {
+				color: var(--nsw-brand-dark);
+				max-width: unset;
+			}
+
+			@include mobile {
+				// max-width: 200px !important;
+			}
+
+			@include mobile-large {
+				max-width: 200px !important;
+			}
+
+			.MuiTab-wrapper {
+				font-style: normal;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 19px;
+
+				@include mixins.ie-only {
+					text-transform: capitalize;
+				}
+			}
+		}
+	}
+	&__tab-bar {
+		.MuiTabs-scrollButtons {
+			@include all-mobile-devices {
+				display: none;
+			}
+		}
+	}
+}

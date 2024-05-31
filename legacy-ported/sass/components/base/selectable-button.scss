@@ -1,0 +1,29 @@
+.selectable-button {
+  max-height: 68px;
+  margin-bottom: 15px;
+  border: 1px solid white;
+  cursor: pointer;
+
+  &__title {
+
+    @include all-mobile-devices {
+      justify-content: center;
+      border-bottom: 1px solid $border-color;
+      padding-bottom: 10px !important;
+    }
+
+    @include laptop-desktop {
+      justify-content: center;
+      border-bottom: 1px solid $border-color;
+      padding-bottom: 10px !important;
+    }
+  }
+
+  &--selected {
+    background-color: #002664 !important;
+    border: 1px solid #002664;
+    h4, svg{
+      color: white;
+    }
+  }
+}

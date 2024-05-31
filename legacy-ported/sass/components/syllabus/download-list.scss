@@ -1,0 +1,95 @@
+@use './legacy-ported/sass/abstracts/mixins';
+
+.download-list {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-top: 10px;
+
+  &--primary {
+    border-top: solid 6px $red-primary;
+  }
+
+  &--secondary {
+    border-top: solid 6px $blue-secondary;
+  }
+
+  @include mobile {
+    padding: 5px;
+  }
+
+  &__item {
+    padding: 5px 20px;
+    border-bottom: 1px solid $border-color;
+
+    &:last-child {
+      //border-bottom: unset;
+      border-bottom: 1px solid white;
+
+      @include mixins.ie-only {
+        border-bottom: 1px solid white;
+      }
+    }
+
+    @include mobile {
+      padding: 5px;
+    }
+
+    @include mobile-large {
+      padding: 5px;
+    }
+  }
+
+  &__column {
+    gap: 30px;
+
+    &:last-child {
+      //border-bottom: unset;
+      border-bottom: 1px solid white;
+
+      @include mixins.ie-only {
+        border-bottom: 1px solid white;
+      }
+    }
+
+    @include mobile {
+      gap: 5px;
+    }
+
+    @include mobile-large {
+      gap: 10px;
+    }
+  }
+
+  &__type {
+    min-width: 40px;
+    @include mixins.ie-only {
+      min-width: 60px;
+    }
+  }
+
+  &__name {
+    flex: 1;
+
+    @include mobile {
+      padding-left: 7px;
+    }
+
+    @include mobile-large {
+      padding-left: 7px;
+    }
+  }
+
+  &__link {
+    background: none;
+    border: none;
+    color: $blue-primary;
+    cursor: pointer;
+    text-align: left;
+
+    &--underlined {
+      text-decoration: underline;
+    }
+  }
+
+}

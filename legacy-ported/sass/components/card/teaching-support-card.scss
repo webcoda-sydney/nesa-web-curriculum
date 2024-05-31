@@ -1,0 +1,27 @@
+.teaching-support-card {
+  background-color: $light10 !important;
+  border: 1px solid $blue-primary;
+  margin-bottom: 10px;
+
+  &__title {
+    margin-bottom: 30px;
+
+    p {
+      font-weight: 600;
+    }
+  }
+
+  &__detail {
+    ul {
+      padding-left: 30px;
+    }
+    h2{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 28px;
+      color: $blue-primary;
+      margin: 0.67em 0;
+    }
+  }
+}

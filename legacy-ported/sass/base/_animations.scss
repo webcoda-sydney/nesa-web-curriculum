@@ -1,0 +1,27 @@
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-exit {
+  opacity: 0;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translate3d(0rem, -2rem, 500rem);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translate3d(0, 0rem, 0);
+  }
+  100% {
+    opacity: 1;
+  }
+}

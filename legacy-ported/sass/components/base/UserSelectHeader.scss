@@ -1,0 +1,43 @@
+.user-select-header {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+
+  &__title {
+    margin: 0;
+    @include padding-left(2rem);
+  }
+
+  &__sub-title {
+    font-size: 20px;
+    @include padding-left(2rem);
+  }
+
+  &__goto-nesa {
+    display: flex;
+
+    @include mobile {
+      display: none !important;
+    }
+
+  }
+
+  &__goto-nesa-mobile {
+    display: none !important;
+
+    @include mobile {
+      display: flex !important;
+    }
+
+  }
+
+  &__nesa-link {
+    @include font-size(16px);
+    line-height: 24px;
+    color: unset;
+  }
+
+  img {
+    width: 60px;
+  }
+}

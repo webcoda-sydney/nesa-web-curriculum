@@ -1,0 +1,15 @@
+.top-header-container {
+    background-color: $blue-primary;
+}
+
+.top-header {
+    color: $white;
+    display: flex;
+    align-items: center;
+    padding: .75rem 0;
+
+    p {
+        font-size: .75rem;
+        line-height: 18px;
+    }
+}

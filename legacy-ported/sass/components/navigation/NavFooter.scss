@@ -1,0 +1,164 @@
+@use './legacy-ported/sass/abstracts/mixins';
+
+.nav-footer {
+	margin-top: 50px;
+	padding: 40px 50px;
+	border-top: solid 1px #e4e4e6;
+	width: 100%;
+	max-width: 82rem !important;
+
+	@include mixins.all-mobile-devices {
+		padding: 20px 50px;
+	}
+
+	&__nesa {
+		display: flex;
+		flex-flow: row;
+		align-items: center;
+
+		p {
+			a {
+				color: $blue-primary;
+				font-weight: 400;
+				font-size: 0.875rem;
+			}
+		}
+
+		& > * {
+			margin-right: 2rem;
+			margin-top: 0;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+
+		// @include mixins.all-mobile-devices {
+		// 	& > * {
+		// 		margin-right: 0;
+		// 		margin-bottom: 30px;
+
+		// 		&:last-child {
+		// 			margin-bottom: 0;
+		// 		}
+		// 	}
+
+		// 	flex-flow: column;
+		// 	align-items: flex-start;
+		// }
+	}
+
+	&__nesa-header {
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 24px;
+	}
+
+	&__icons {
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+
+		> a {
+			margin-right: 1rem;
+		}
+	}
+
+	&__sections {
+		display: flex;
+		flex-flow: row;
+		margin-top: 40px;
+		@include mixins.ie-only {
+			justify-content: space-between;
+			width: 100%;
+		}
+
+		@include mixins.all-mobile-devices {
+			flex-flow: column;
+		}
+	}
+}
+
+.nav-footer-group {
+	border-right: solid 2px #4c4f55;
+	min-width: 140px;
+	display: flex;
+	flex-flow: row;
+	@include mixins.ie-only {
+		width: 100%;
+	}
+
+	&:last-child {
+		padding-left: 11px;
+		border-right: 0;
+		padding-right: 0;
+		@include mixins.all-mobile-devices {
+			padding-left: 0;
+		}
+	}
+
+	&--no-border {
+		border-right: 0;
+		padding-right: 15px;
+	}
+
+	&__section {
+		display: flex;
+		flex-flow: column;
+		padding: 0 22px;
+		font-size: 0.875rem;
+		@include mixins.ie-only {
+			width: 100%;
+		}
+
+		&-header {
+			margin-bottom: 15px;
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 24px;
+		}
+
+		&-body {
+			display: flex;
+			flex-flow: row;
+		}
+
+		&-column {
+			flex: 1 1 100%;
+			display: flex;
+			flex-flow: column;
+
+			list-style-type: none;
+			padding: 0;
+			margin: 0 10px;
+
+			&:first-child {
+				margin-left: 0;
+			}
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+
+		&-link {
+			margin-bottom: 15px;
+			min-width: 100px;
+			max-width: 135px;
+
+			a {
+				color: $blue-primary;
+			}
+
+			p {
+				font-size: inherit;
+				line-height: inherit;
+			}
+		}
+	}
+
+	@include mixins.all-mobile-devices {
+		border-right: 0;
+		padding: 0;
+	}
+}

@@ -1,0 +1,12 @@
+.custom-popover {
+	padding: 32px;
+
+	&__content {
+		// padding: 10px 0px;
+	}
+
+	&__actions {
+		display: flex;
+		justify-content: flex-end;
+	}
+}

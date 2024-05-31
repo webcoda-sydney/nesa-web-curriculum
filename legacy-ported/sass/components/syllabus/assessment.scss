@@ -1,0 +1,21 @@
+.assessment {
+  width: 100%;
+
+  &__container {
+    @include ie-only {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+
+  ul {
+    padding-left: 1rem;
+    margin-top: 15px;
+  }
+
+  ul, ol {
+    padding-left: 35px;
+  }
+
+}

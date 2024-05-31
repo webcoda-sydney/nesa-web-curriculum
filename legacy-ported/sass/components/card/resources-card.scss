@@ -1,0 +1,75 @@
+@use "./legacy-ported/sass/abstracts/variables";
+
+.resources-card {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+
+  .resources-card__content {
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+
+    gap: 10px;
+    padding-bottom: 0!important;
+  }
+
+  &--primary {
+    border-top: solid 6px variables.$red-primary;
+  }
+  &--secondary {
+    border-top: solid 6px variables.$blue-tertiary;
+  }
+
+  &__headline {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: $blue-primary;
+    margin: 15px 0;
+    text-align: left;
+  }
+
+  &__body {
+    text-align: left;
+  }
+
+  &__year {
+
+  }
+  &__header {
+    font-weight: 600;
+  }
+
+  &__link {
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  .pdf-icon{
+    margin-right: 10px;
+  }
+
+  &__button-container {
+    margin-top: 20px;
+  }
+
+  .nsw-button{
+    max-width: 250px;
+    font-size: 14px;
+  }
+
+  &__pdf-icon {
+    @include ie-only{
+      margin-right: 10px;
+    }
+  }
+
+  &__download-icon {
+    margin-top: 5px;
+    @include ie-only{
+      margin-left: 10px;
+    }
+  }
+}

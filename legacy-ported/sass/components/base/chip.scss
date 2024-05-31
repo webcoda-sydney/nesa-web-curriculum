@@ -1,0 +1,15 @@
+@use "./legacy-ported/sass/abstracts/variables";
+
+.chip {
+  display: flex;
+  flex-flow: row;
+
+  border: solid 1px variables.$light40;
+  border-left: solid 2px variables.$blue-tertiary;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  padding: 10px 20px;
+  text-transform: capitalize;
+}

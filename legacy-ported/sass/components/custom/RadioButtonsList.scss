@@ -1,0 +1,45 @@
+@use './legacy-ported/sass/abstracts/variables';
+@use './legacy-ported/sass/abstracts/mixins';
+
+.radio-buttons-list {
+  display: flex;
+  flex-flow: column nowrap;
+  overflow-y: auto;
+  padding-left: 12px;
+
+  .radio-buttons-list__button {
+    color: variables.$black;
+    &.Mui-checked, &.MuiRadio-colorSecondary.Mui-checked{
+      color: variables.$blue-primary !important;
+    }
+  }
+
+  &__element {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 5px 0px;
+
+    @include mixins.all-mobile-devices {
+      border-bottom: solid 2px variables.$light40;
+    }
+
+    .MuiFormControlLabel-label {
+      font-size: 16px;
+    }
+  }
+
+  &__info {
+    border-left: 2px solid $blue-primary;
+  }
+
+  &__info-detail {
+    padding: 10px 15px;
+  }
+
+  &__tooltip-icon {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+}

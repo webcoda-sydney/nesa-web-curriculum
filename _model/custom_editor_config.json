@@ -1,0 +1,29 @@
+{
+    "height": 500,
+    "mathjax": {
+        "lib": "https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-svg.js",
+        "symbols": {
+            "start": "",
+            "end": ""
+        }
+    },
+    "external_plugins": {
+        "mathjax": "https://cdn.jsdelivr.net/gh/Webcoda/tinymce-mathjax@next/plugin.js"
+    },
+    "toolbar": "undo redo | bold italic underline styleselect| mathjax | bullist numlist | removeformat",
+    "valid_elements": "*[*]",
+    "plugins": [
+        "autolink lists link image charmap print preview anchor mathjax",
+        "searchreplace visualblocks code fullscreen",
+        "insertdatetime media table paste code help wordcount"
+    ],
+    "style_formats": [
+        {
+            "title": "small-caps",
+            "inline": "span",
+            "styles": {
+                "font-variant": "small-caps"
+            }
+        }
+    ]
+}

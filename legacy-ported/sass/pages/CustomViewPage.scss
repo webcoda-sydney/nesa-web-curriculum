@@ -1,0 +1,165 @@
+@use "./legacy-ported/sass/abstracts/mixins";
+@use "./legacy-ported/sass/abstracts/variables";
+
+.custom-view {
+  &__beta{
+    p {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    a {
+      color: $blue-primary;
+    }
+    ul {
+      margin-left: 1rem;
+    }
+    li{
+      margin-top: 5px;
+    }
+  }
+  &.nsw-container {
+    // padding-top: 35px;
+  }
+
+  .custom-view__stage-buttons {
+    display: none;
+
+    .nsw-button {
+      width: 100%;
+    }
+
+    @include mixins.all-mobile-devices {
+      display: flex;
+    }
+
+    .custom-view__stage-buttons--back {
+      background-color: variables.$blue-secondary;
+      border-color: variables.$blue-secondary;
+    }
+  }
+
+  @include mixins.all-mobile-devices {
+    .syllabus-picker__picker--learning-areas, .syllabus-picker__picker--stages,
+    .syllabus-picker__picker--elements, .syllabus-picker__picker--tags,
+    .resource-picker__picker--learning-areas, .resource-picker__picker--stages,
+    .resource-picker__picker--resources {
+      display: none;
+    }
+
+    &--stage-1 {
+      .syllabus-picker__picker--learning-areas, .resource-picker__picker--learning-areas {
+        display: flex;
+      }
+
+      .custom-view__buttons {
+        display: none;
+      }
+    }
+
+    &--stage-2 {
+      .syllabus-picker__picker--stages, .resource-picker__picker--stages {
+        display: flex;
+      }
+
+      .custom-view__buttons {
+        display: none;
+      }
+    }
+
+    &--stage-3 {
+      .syllabus-picker__picker--elements, .resource-picker__picker--resources {
+        display: flex;
+      }
+
+    //   .custom-view__buttons {
+    //     display: none;
+    //   }
+    }
+    &--stage-4 .syllabus-picker__picker--tags {
+      display: flex;
+    }
+  }
+
+  .button--full-width {
+    margin-right: 0; // override NSW css
+  }
+
+  &__instruction {
+    margin-top: 35px;
+	scroll-margin-top: 138px + 24px;
+  }
+
+  &__syllabus-container {
+    margin-top: 22px;
+
+    .syllabus-picker, .resource-picker {
+      @include mixins.all-mobile-devices {
+        height: auto;
+      }
+    }
+
+    @include mixins.all-mobile-devices {
+      max-height: none;
+    }
+  }
+
+  &__left-btn {
+    @media (min-width: 600px) { // 600px is Mui sm breakpoint
+      border-top-right-radius: 0 !important;
+      border-bottom-right-radius: 0 !important;
+    }
+  }
+
+  &__right-btn {
+    &.nsw-button {
+      margin-top: 10px;
+    }
+
+    @media (min-width: 600px) {
+      border-top-left-radius: 0 !important;
+      border-bottom-left-radius: 0 !important;
+      &.nsw-button {
+        margin-top: 1.5rem;
+      }
+    }
+  }
+
+  &__buttons {
+    img {
+      margin-right: 10px;
+    }
+
+    @include mixins.all-mobile-devices {
+      flex-direction: column;
+      margin: 0 auto;
+      .nsw-button {
+        margin-right: 0;
+      }
+    }
+
+    .nsw-button:last-child {
+      margin-right: 0;
+    }
+
+    &--margin-top {
+      @include mixins.ie-only {
+        margin-top: 0px;
+      }
+      @include mixins.all-mobile-devices{
+        margin-top: 0px;
+      }
+    }
+  }
+
+  &__message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    margin-right: 24px;
+    p{
+      color: variables.$red-primary;
+    }
+  }
+}

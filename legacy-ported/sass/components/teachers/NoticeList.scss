@@ -1,0 +1,101 @@
+.notice-list {
+  padding: 22px 20px;
+  &__heading {
+
+  }
+
+  &__list {
+    padding: 5px 0;
+    a{
+      text-decoration: none;
+    }
+  }
+  &__view-all {
+    margin-top: 15px !important;
+    a{
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    p{
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    h1{
+      margin-top: 0;
+    }
+    h3{
+      margin: 10px 0;
+    }
+  }
+
+  &__footer-link {
+    border-right: solid 1px black;
+
+    padding: 0 10px;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      border-right: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+.notice {
+  padding: 20px 0;
+  border-bottom: solid 1px #4F4F4F;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  &__content {
+    margin-top: 9px;
+  }
+}
+
+.emailbox {
+  display: flex;
+  flex-flow: row;
+  align-items: stretch;
+
+  &__input {
+    width: 100%;
+    padding: 8px 6px 8px 15px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.1876em;
+
+    .MuiOutlinedInput-root {
+      height: 100%;
+    }
+    .MuiOutlinedInput-input {
+      padding: 8px 6px 8px 15px;
+      height: 100%;
+    }
+    .MuiOutlinedInput-notchedOutline {
+      border-radius: 2px 0 0 2px;
+    }
+  }
+
+  &__submit {
+    &.MuiButton-root {
+      border-radius: 0 2px 2px 0;
+    }
+    border-radius: 0 2px 2px 0;
+  }
+}

@@ -1,0 +1,26 @@
+.arrow-btn {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  //align-items: center;
+  @include large-screens{
+    max-width: 90%;
+    margin: 20px auto auto 10%;
+    align-items: flex-start;
+  }
+  h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  &__label{
+    display: flex;
+    flex-direction: row;
+  }
+  &__link{
+    text-decoration: none;
+  }
+  &__icon{
+    font-size: 10px;
+  }
+}

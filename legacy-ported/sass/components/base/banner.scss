@@ -1,0 +1,39 @@
+.banner {
+
+    &__content {
+        padding: 50px;
+        background: linear-gradient(90deg, #E4E4E6 40%, rgba(228, 228, 230, 0) 100%);
+
+        @include mobile {
+          padding: 1.7rem;
+          background: linear-gradient(90deg, #E4E4E6 40%, rgba(228, 228, 230, 0) 100%);
+        }
+    }
+
+    &__title {
+        width: 100%;
+        margin: 5px 0px;
+    }
+
+    &__description {
+        width: 100%;
+    }
+
+    &__button {
+        display: flex !important;
+        align-items: center;
+    }
+
+    &__teachers {
+        background-image: url('../../../assets/images/teachers-banner-image.jpeg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: right;
+
+        @include mobile {
+            background-position: right -320px center;
+        }
+    }
+}

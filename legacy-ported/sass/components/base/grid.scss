@@ -1,0 +1,12 @@
+@for $row from 1 through 10 {
+  .grid-row-#{$row} {
+    -ms-grid-row: $row;
+  }
+}
+
+@for $col from 1 through 10 {
+  .grid-col-#{$col} {
+    -ms-grid-column: $col;
+  }
+}
+

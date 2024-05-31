@@ -1,0 +1,17 @@
+.video-modal {
+    padding: 30px;
+
+    &__video-container {
+        height: 95vh;
+        background-color: $black;
+    }
+
+    &__video {
+        height: 95%;
+    }
+
+    &__close-button {
+        height: 24px;
+        cursor: pointer;
+    }
+}

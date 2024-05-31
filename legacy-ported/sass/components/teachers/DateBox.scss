@@ -1,0 +1,21 @@
+.datebox {
+  background-color: black;
+
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 15px;
+
+  &__flag {
+    &.MuiSvgIcon-root {
+      width: 10px;
+      height: 10px;
+    }
+
+    margin-right: 10px;
+    color: #DC5800;
+  }
+  &__label {
+    color: white;
+    font-weight: 600;
+  }
+}

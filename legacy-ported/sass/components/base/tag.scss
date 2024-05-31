@@ -1,0 +1,38 @@
+@mixin tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+}
+  
+@mixin tag {
+    display: flex;
+    background: $white;
+    border: 1px solid $blue-secondary;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 2px 1rem;
+    font-size: .875rem;
+    line-height: 1.35;
+    font-weight: 400;
+    color: $blue-secondary;
+  
+    @include mobile {
+      padding: 5px;
+    }
+}
+
+.tags {
+    @include tags;
+}
+
+
+.tag {
+    @include tag;
+}
+
+//for hiding tags
+.hide {
+    display: none !important;
+}

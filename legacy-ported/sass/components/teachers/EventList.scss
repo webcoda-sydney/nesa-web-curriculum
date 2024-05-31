@@ -1,0 +1,84 @@
+.event-list {
+  padding: 20px 22px;
+
+  &__view-all {
+    border-top: solid 1px #4F4F4F;
+    padding-top: 15px;
+    margin-top: 15px;
+
+    a {
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+
+  // List is implemented via a 3 column CSS grid
+  &__list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto 1fr;
+    grid-template-columns: auto auto 1fr;
+    // Ensure items are same height so border aligns
+    align-items: stretch;
+
+    // Styles applied to grid items
+    & > * {
+      // 20 px gutters top and bottom
+      padding-top: 20px;
+      padding-bottom: 20px;
+      // Dividing line
+      border-top: solid 1px #4F4F4F;
+
+      // Center content vertically
+      display: flex;
+      align-items: center;
+
+      // Don't show divider for first row
+      &:nth-child(-n + 3) {
+        border-top: 0;
+      }
+
+      // remove end padding
+      &:nth-last-child(-n + 3) {
+        padding-bottom: 0;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    &__list {
+      grid-template-columns: auto 1fr;
+
+      & > * {
+
+        padding-bottom: 0;
+
+        &:nth-child(3n) {
+          // change content to span an entire row
+          grid-column-end: span 2;
+          border-top: 0;
+
+          // adjust padding
+          padding-top: 15px;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  &__day {
+    font-weight: 600;
+    padding-right: 8px;
+  }
+
+  &__date {
+    padding-right: 20px;
+  }
+
+  &__label {
+  }
+}

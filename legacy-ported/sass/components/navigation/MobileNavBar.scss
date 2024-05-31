@@ -1,0 +1,49 @@
+@use "./legacy-ported/sass/abstracts/mixins";
+@use "./legacy-ported/sass/abstracts/variables";
+
+.mobile-navbar {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 14px;
+  padding: 15px;
+  background-color: variables.$white;
+
+  //For IOS: to fix height of header moving while navigating
+  max-height: 90px;
+  min-height: 90px;
+
+  &__link {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+
+    .navbar__title {
+      font-size: 12px;
+      line-height: 20px;
+    }
+
+    .navbar__sub-title {
+      font-size: 10px;
+      line-height: 15px;
+      font-weight: 400;
+    }
+  }
+
+  &__logo {
+    height: 50px;
+    //width: 50px;
+  }
+
+  &__control {
+    .MuiButton-label {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      min-width: 4rem;
+    }
+  }
+}
+

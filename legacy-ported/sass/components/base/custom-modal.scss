@@ -1,0 +1,57 @@
+
+@keyframes dots {
+	0%, 20% {
+		content: '.';
+	}
+	40% {
+		content: '..';
+	}
+	60% {
+		content: '...';
+	}
+	90%, 100% {
+		content: '';
+	}
+}
+
+.custom-modal {
+  &__title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+
+    @media (max-width: 991px) {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+    }
+
+	&-loader:before {
+		animation: dots 2s linear infinite;
+		content: '';
+	}
+  }
+
+  &__cancel-and-done {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+  }
+
+  &__dialog-actions-with-change-log {
+    margin-right: 1rem;
+    padding-left: 15px !important;
+
+    @include mobile {
+      width: 100%;
+    }
+
+    @include mobile-large {
+      width: 100%;
+    }
+  }
+
+  &__heading {
+    padding: 20px;
+  }
+}

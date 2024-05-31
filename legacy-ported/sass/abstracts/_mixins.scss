@@ -1,0 +1,228 @@
+/*
+  ##Device = All mobile devices and tablets
+*/
+@mixin ie-only {
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* Your styles */
+    @content;
+  }
+}
+
+@mixin not-ie {
+  @supports not (-ms-high-contrast: none) {
+    /* Your styles */
+    @content;
+  }
+}
+
+/*
+  ##Device = All mobile devices and tablets
+*/
+@mixin all-mobile-devices {
+  @media (min-width: 320px) and (max-width: 1024px) {
+    @content;
+  }
+}
+
+
+/*
+  ##Device = Most of the Small Smartphone Mobile (Portrait) like iphone5/SE
+  ##Screen = B/w 320px to 375px x 568px
+  ##Should be used after mobile css
+*/
+@mixin mobile-small {
+  @media (min-width: 320px) and (max-width: 375px) and (max-height: 568px) {
+    @content;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphone Mobile (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@mixin mobile {
+  @media (min-width: 320px) and (max-width: 375px) {
+    @content;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphone Mobile (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@mixin mobile-large {
+  @media (min-width: 376px) and (max-width: 480px) {
+    @content;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@mixin low-res-tablet-and-mobile-landscape {
+  @media screen and (min-width: 481px) and (max-width: 812px) {
+    @content;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@mixin tablet-ipad-landscape {
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@mixin tablet-ipad {
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    @content;
+  }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@mixin laptop-desktop {
+  @media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    @content;
+  }
+}
+
+/*
+  This will be used for any css that should be implemented on devices/browsers with small screens
+*/
+@mixin small-screens {
+  @media only screen and (max-width: 1024px) {
+    @content;
+  }
+}
+
+/*
+  This will be used for any css that should be implemented on devices/browsers apart from mobile phones
+*/
+@mixin large-screens {
+  @media only screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@mixin large-desktop {
+  @media only screen and (min-width: 1281px) {
+    @content;
+  }
+}
+
+/* ----------- iPad Pro ----------- /
+/ Portrait and Landscape */
+@mixin ipad-pro-portrait-and-landscape {
+  @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    @content;
+  }
+}
+
+/* Portrait */
+@mixin ipad-pro-portrait {
+  @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+    @content;
+  }
+}
+
+/* Landscape */
+@mixin ipad-pro-landscape {
+  @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+    @content;
+  }
+}
+
+/* Material UI Grid Breakpoints */
+
+@mixin mui-xs {
+  @media only screen and (min-width: 0px) and (max-width: 599px) {
+    @content;
+  }
+}
+
+@mixin mui-sm {
+  @media only screen and (min-width: 600px) and (max-width: 959px) {
+    @content;
+  }
+}
+
+@mixin mui-md {
+  @media only screen and (min-width: 960px) and (max-width: 1279px) {
+    @content;
+  }
+}
+
+@mixin mui-lg {
+  @media only screen and (min-width: 1280px) and (max-width: 1919px) {
+    @content;
+  }
+}
+
+@mixin mui-xl {
+  @media only screen and (min-width: 1920px) {
+    @content;
+  }
+}
+
+/**
+ * Everything sm or smaller
+ */
+@mixin mui-sm-minus {
+  @include mui-xs {
+    @content
+  }
+  @include mui-sm {
+    @content
+  }
+}
+
+/**
+ * Everything md or smaller
+ */
+@mixin mui-md-minus {
+  @include mui-xs {
+    @content
+  }
+  @include mui-sm {
+    @content
+  }
+  @include mui-md {
+    @content
+  }
+}
+
+/**
+ * Everything lg or smaller
+ */
+@mixin mui-lg-minus {
+  @include mui-xs {
+    @content
+  }
+  @include mui-sm {
+    @content
+  }
+  @include mui-md {
+    @content
+  }
+  @include mui-lg {
+    @content
+  }
+}

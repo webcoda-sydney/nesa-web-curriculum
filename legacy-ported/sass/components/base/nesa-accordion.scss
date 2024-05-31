@@ -1,0 +1,95 @@
+// CSS to rewrite Material UI accordion to match with NESA
+.nesa-accordion {
+	border: 0;
+	border-radius: 0 !important;
+	box-shadow: none !important;
+	margin-top: 0.5rem !important;
+
+	> p {
+		font-size: 1rem;
+		line-height: 1.5;
+		color: black;
+	}
+
+	&__icon {
+		color: $blue-primary;
+		font-size: 1.875rem;
+	}
+
+	&__content {
+		display: flex;
+		@include not-ie {
+			flex-flow: column nowrap;
+		}
+
+		@include ie-only {
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+
+		background: white;
+		padding: 1rem;
+		margin-top: 0.5rem;
+
+		.custom-syllabus-card {
+			box-shadow: none;
+
+			&__list {
+				padding-left: 2rem;
+			}
+		}
+	}
+
+	&__header {
+		@apply px-4;
+		background-color: var(--nsw-off-white);
+		min-height: 64px !important;
+
+		p {
+			@screen lg {
+				font-size: var(--nsw-font-size-md-desktop);
+				line-height: var(--nsw-line-height-md-desktop);
+			}
+			font-weight: 700;
+		}
+		&.nesa-accordion__active:hover {
+			background-color: var(--nsw-brand-dark) !important;
+		}
+	}
+
+	&__active {
+		// border-bottom: 2px solid $red-primary !important;
+		background-color: var(--nsw-brand-dark);
+		color: var(--nsw-palette-white);
+		.MuiAccordionSummary-expandIconWrapper {
+			color: var(--nsw-palette-white);
+		}
+		.nesa-accordion__icon {
+			color: var(--nsw-palette-white);
+		}
+	}
+
+	&__header:hover {
+		background-color: rgba(0, 133, 179, 0.2) !important;
+	}
+
+	// hiding expand icon of accordion if disabled
+	.Mui-disabled {
+		.MuiAccordionSummary-expandIcon {
+			display: none;
+		}
+	}
+	.Mui-disabled--with-external-icon {
+		&.MuiButtonBase-root {
+			pointer-events: auto;
+			cursor: pointer;
+			opacity: 1;
+		}
+		.MuiAccordionSummary-content {
+			opacity: 0.38;
+		}
+		.MuiAccordionSummary-expandIcon {
+			display: block;
+		}
+	}
+}

@@ -1,0 +1,7 @@
+@use "../../abstracts/variables";
+
+.glossary-page {
+  &__body {
+    @apply mt-8;
+  }
+}

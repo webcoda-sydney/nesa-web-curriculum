@@ -1,0 +1,99 @@
+@use "./legacy-ported/sass/abstracts/mixins";
+@use "./legacy-ported/sass/abstracts/variables";
+
+.mobile-navbar-menu {
+  flex: 0 1;
+  overflow-y: auto;
+
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  background-color: variables.$white;
+
+  font-size: 14px;
+
+  .mobile-navbar-menu__section {
+    padding: 15px;
+    border: solid 1px variables.$light20;
+    border-radius: 0;
+    text-transform: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    min-height: 55px; // fix for safari sub-menu height
+
+    &--more {
+      justify-content: space-between;
+    }
+  }
+
+  &__section-heading {
+    font-weight: 600;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+
+    &-icon {
+      margin-left: 10px;
+    }
+
+    p {
+      font-size: inherit;
+      line-height: inherit;
+    }
+  }
+
+  &__search {
+    .MuiInputBase-input {
+      padding: 0;
+    }
+  }
+
+  &__footer {
+    padding: 15px;
+    border: solid 1px variables.$light20;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    .MuiIconButton-root {
+      padding: 0 0 0 5px;
+    }
+  }
+
+  &__view-text {
+    color: variables.$blue-primary;
+  }
+
+  &__font-size {
+    &.MuiButton-root {
+      padding: 10px;
+      width: 39px;
+      height: 39px;
+      min-width: 0;
+    }
+
+    .MuiButton-label {
+      text-transform: none;
+    }
+  }
+
+  &__icons {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 10px;
+
+    a {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+    }
+  }
+}

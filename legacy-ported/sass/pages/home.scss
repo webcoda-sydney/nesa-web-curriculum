@@ -1,0 +1,67 @@
+.home {
+  @include mobile {
+    // negative margins offset nsw-container padding
+    margin: 0 -1rem;
+  }
+  @include mobile-large {
+    // negative margins offset nsw-container padding
+    margin: 0 -1rem;
+  }
+
+  &__events-and-notices {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    align-items: stretch;
+
+    margin-top: 35px;
+    @include all-mobile-devices {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    @include ipad-pro-portrait {
+      flex-direction: row;
+    }
+  }
+
+  &__notices {
+    display: flex;
+    flex-flow: column;
+    flex-basis: calc(50% - 24px);
+    margin-right: 48px;
+
+    @include all-mobile-devices {
+      margin-right: 0;
+      flex-basis: auto;
+    }
+
+    @include ipad-pro-portrait {
+      flex: 0 0 calc(50% - 24px);
+    }
+  }
+
+  &__events {
+    flex-basis: calc(50% - 24px);
+
+    @include all-mobile-devices {
+      flex-basis: auto;
+      margin-top: 15px;
+    }
+    @include ipad-pro-portrait {
+      flex-basis: calc(50% - 24px);
+    }
+  }
+
+  &__news-letter {
+    flex-basis: calc(50% - 24px);
+    margin-top: 25px;
+
+    @include all-mobile-devices {
+      margin-top: 15px;
+      flex-basis: auto;
+    }
+    @include ipad-pro-portrait {
+      flex-basis: calc(50% - 24px);
+    }
+  }
+}

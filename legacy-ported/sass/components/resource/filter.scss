@@ -1,0 +1,18 @@
+.resource-filter {
+  padding: 10px 0px 30px;
+
+  &__search {
+    margin: 10px 0px !important;
+
+    @include ie-only{
+      margin: 10px 0px 60px 0px !important;
+    }
+  }
+
+  &__search-bar {
+    border: solid 1px $light40;
+    border-radius: 5px;
+    width: 100%;
+    padding: 7px 0px;
+  }
+}

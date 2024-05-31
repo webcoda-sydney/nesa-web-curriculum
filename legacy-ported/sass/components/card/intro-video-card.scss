@@ -1,0 +1,40 @@
+.intro-video-card {
+  text-align: left;
+  cursor: pointer;
+
+  &__label {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  &__date {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  &__title {
+    color: $blue-primary;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+
+    @media (max-width: 991px) {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+    }
+  }
+
+  &__download-transcript {
+    color: $blue-primary;
+    max-width: 175px;
+  }
+
+  &__thumbnail {
+    @include ie-only{
+      min-height: 180px;
+    }
+  }
+
+}
